@@ -1,4 +1,94 @@
-body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-    
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body {
+    font-family: Rokkitt, sans-serif;
+    font-weight: 300;
+
+}
+h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: gray;
+
+
+}
+
+#site-name {
+    float: left;
+    font-size: 150%;
+    color: black;
+    background-color: white;
+    margin-left: 30px;
+
+}
+#navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation,
+#site-name {
+    line-height: 70px;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid green;
+}
+#image-outer {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+#text-on-image #text-on-image h2 {
+    color: red;
+    font-family: Rokkitt, sans-serif;
+}
+#image-main {
+    height: 450px;
+    width: 100%;
+    background: url('../images/einstein-g9555b3bfa_1280.jpg') no-repeat center center;
+
+
+    animation-name: h-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes h-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+#text-on-image {
+    font-size: 90%;
+    font-family: Rokkitt, sans-serif;
+
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: gray;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+
+} 
