@@ -103,16 +103,23 @@ h2 {
     height: 500px;
     font-family: Rokkitt, sans-serif;
 }
+#about-heading {
+
+    color: gold;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    margin: 50px 0;
+
+}
 
 #about-left-description {
 
 
-    width: 65%;
-    float: left;
-    margin-top: 100px;
-    margin-left: 65%;
-
-
+        width: 40%;
+        float: left;
+        margin-top: 100px;
+        margin-left: 5%;
 }
 
 .about-left-des {
@@ -120,4 +127,25 @@ h2 {
     float: right;
     line-height: 30px;
     clear: both;
+}
+#about-a-image {
+    width: 33%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+}
+
+#about-b-image {
+    width: 28rem;
+    height: 25rem;
+    padding: 30px;
+    margin: 6% 5% 2% 66%;
+}
+
+#about-c-image {
+    background: url('../images/books-gd85fce12b_640.jpg') no-repeat center center;
+
+    height: 100%;
 }
