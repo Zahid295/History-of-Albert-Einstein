@@ -183,3 +183,54 @@ h2 {
     color: black;
     font-weight: bold;
 }
+
+ /* Albert Einstein's life background and an image section */
+
+#intro {
+    height: 450px;
+    font-family: Rokkitt, sans-serif;
+}
+#scientist {
+
+    color: gold;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    margin: 70px 0px 70px 0px;
+
+}
+#left-description {
+    padding-top: 5px;
+    width: 60%;
+    float: left;
+
+}
+.left-des {
+    width: 90%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+
+
+}
+#right-i-image {
+
+
+     width: 33%;
+     height: auto;
+     margin: 0 auto;
+}
+#R-image {
+    width: 28rem;
+    height: 28rem;
+    padding: 30px;
+    margin: 0 2% 0 77%;
+}
+#right-image {
+
+
+    background: url('../images/albert-einstein-g0f3e58a48_640.jpg') no-repeat center center;
+
+    height: 100%;
+}
