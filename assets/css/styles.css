@@ -286,3 +286,12 @@ h2 {
 
     height: 100%;
 }
+#photo-gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+#photo-gallery > img {
+    width: 100%;
+}
