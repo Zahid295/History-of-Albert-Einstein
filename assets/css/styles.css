@@ -435,11 +435,12 @@ h2 {
     margin-bottom: 0px;
     position: relative;
 }
-i {
-     color: #618685;
+
+ i {
+     color: black;
  }
 
-#a {
+ #a {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: 15px;
 
