@@ -49,7 +49,9 @@ h2 {
 #navigation a:hover {
     border-bottom: 1px solid green;
 }
+
  /* Main image of home page */
+
 #image-outer {
     height: 450px;
     width: 100%;
@@ -66,7 +68,7 @@ h2 {
 #image-main {
     height: 450px;
     width: 100%;
-    background: url('../images/einstein-g9555b3bfa_1280.jpg') no-repeat center center;
+    background: url('../images/Energy_equation.jpg') no-repeat center center;
 
     /* animates on loading page */
     animation-name: h-zoom;
@@ -150,7 +152,7 @@ h2 {
 }
 
 #about-c-image {
-    background: url('../images/books-gd85fce12b_640.jpg') no-repeat center center;
+    background: url('../images/Albert_Einstein_old_photo.jpg') no-repeat center center;
 
     height: 100%;
 }
