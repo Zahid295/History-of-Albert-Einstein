@@ -882,5 +882,15 @@
     /* Media query for small devices like smartphones */
 
         @media screen and (max-width: 950px) {
-            
+           
+        /* Media query for navigation */
+
+            #navigation {
+                    clear: left;
+                    float: left;
+                    margin-left: 20px;
+                    margin-bottom: 0px;
+                    margin-top: 35px;
+                    line-height: 25px;
+                }
         }
