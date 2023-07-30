@@ -893,4 +893,11 @@
                     margin-top: 35px;
                     line-height: 25px;
                 }
+        /* Media query for text on main image on home page */
+
+            #text-on-image {
+                    left: 0;
+                    display: none;
+                         
+                }
         }
