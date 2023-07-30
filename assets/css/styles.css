@@ -684,8 +684,8 @@
                     margin: 0 auto;
                 }
 
-                    #scientist {
-                    margin: 90px 0px;
+                #scientist {
+                    margin: 150px 0px 70px 0px;
                     max-width: 100%;
                 }
             
@@ -968,7 +968,7 @@
                         background-color: gray;
                         padding: 20px;
                         text-align: center;
-                        margin: 100px 0px;
+                        margin: 150px 0px 70px 0px ;
             
                 }
 
