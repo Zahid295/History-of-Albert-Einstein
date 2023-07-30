@@ -40,7 +40,22 @@
         </nav>
     </header>
 
-    <section>Sign up form for newsletter</section>
+    <section class="signup-section" id="signup-area">
+    
+        <form class="history-form" id="signup-form" method="POST" action="">
+            <h2 id="signup-heading">Remain upto date!</h2> <br>
+            <p id="signup-paragraph">Sign Up for Newsletter to get updates on new content.</p> <br>
+            <label for="fname">First Name</label>
+            <input id="fname" class="input-structure" type="text" name="first_name" required />
+            <label for="lname">Last Name</label>
+            <input id="lname" class="input-structure" type="text" name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="input-structure" type="email" name="email_address" required />
+            <input class="signup-button" type="submit" value="Sign Up" />
+    
+        </form>
+    
+    </section>
 
     <footer>Social media icons</footer>
 </body>
