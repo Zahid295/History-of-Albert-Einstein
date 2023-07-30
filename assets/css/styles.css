@@ -645,6 +645,10 @@
 
         /* Media query for home page to make it responsive */
 
+         #site-name {
+        padding: 5px 0px 0px 0px;
+    }
+        
         #about-us {
                 width: 65%;
                 height: 850px;
