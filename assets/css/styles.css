@@ -741,4 +741,16 @@
             img {
                 width: 100%;
             }
+        /* Media query for gallery page to make it responsive */
+
+            #photo-gallery {
+                clear: both;
+                line-height: 0;
+                column-count: 4;
+                column-gap: 0;
+            }
+            
+            #photo-gallery>img {
+                width: 100%;
+            }
     }
