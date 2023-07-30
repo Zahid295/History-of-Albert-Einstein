@@ -1,674 +1,744 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-body {
-    font-family: Rokkitt, sans-serif;
-    font-weight: 300;
-
-}
- /* Heading and logo */
-h2 {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    color: gold;
-    background-color: gray;
-
-
-}
-
-#site-name {
-    float: left;
-    font-size: 150%;
-    color: black;
-    background-color: white;
-    margin-left: 30px;
-
-}
- /* Header navigation */
-#navigation li {
-    float: right;
-    list-style-type: none;
-    margin-right: 40px;
-}
-
-#navigation a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#navigation,
-#site-name {
-    line-height: 70px;
-}
-
-#navigation a:hover {
-    border-bottom: 1px solid green;
-}
-
- /* Main image of home page */
-
-#image-outer {
-    height: 450px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-}
-
-#text-on-image #text-on-image h2 {
-    color: red;
-    font-family: Rokkitt, sans-serif;
-}
-
-#image-main {
-    height: 450px;
-    width: 100%;
-    background: url('../images/Energy_equation.jpg') no-repeat center center;
-
-    /* animates on loading page */
-    animation-name: h-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-/* zoom for main image */
-
-@keyframes h-zoom {
-    from {
-        transform: scale(1);
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
     }
 
-    to {
-        transform: scale(1.1);
+    body {
+        font-family: Rokkitt, sans-serif;
+        font-weight: 300;
+
     }
-}
-
- /* text area on main image on home page */
-
-#text-on-image {
-    font-size: 90%;
-    font-family: Rokkitt, sans-serif;
-
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: gray;
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
-}
-
-/* About us section */
-
-#about-us {
-    height: 500px;
-    font-family: Rokkitt, sans-serif;
-}
-#about-heading {
-
-    color: gold;
-    background-color: gray;
-    padding: 20px;
-    text-align: center;
-    margin: 50px 0;
-
-}
-
-#about-left-description {
+    /* Heading and logo */
+    h2 {
+        font-family: Roboto, sans-serif;
+        text-transform: uppercase;
+        color: gold;
+        background-color: gray;
 
 
-        width: 40%;
+    }
+
+    #site-name {
         float: left;
-        margin-top: 100px;
-        margin-left: 5%;
-}
-
-.about-left-des {
-    width: 90%;
-    float: right;
-    line-height: 30px;
-    clear: both;
-}
-#about-a-image {
-    width: 33%;
-    height: auto;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-bottom: 40px;
-    margin-right: auto;
-}
-
-#about-b-image {
-    width: 28rem;
-    height: 25rem;
-    padding: 30px;
-    margin: 6% 5% 2% 66%;
-}
-
-#about-c-image {
-    background: url('../images/old_books.jpg') no-repeat center center;
-
-    height: 100%;
-}
-
- /* Footer */
-.social-container {
-    display: flex;
-
-    width: 100%;
-    max-height: 8px;
-    margin-top: 10%;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-.social-container>div {
-
-
-    display: inline;
-    font-size: 150%;
-    padding: 10%;
-    width: 10%;
-    height: 1%;
-    background-color: rgb(204, 189, 189);
-    margin: 0;
-
-}
-
-#social-color i {
-    color: black;
-    font-weight: bold;
-}
-
- /* Albert Einstein's life background and an image section */
-
-#intro {
-    height: 450px;
-    font-family: Rokkitt, sans-serif;
-}
-#scientist {
-
-    color: gold;
-    background-color: gray;
-    padding: 20px;
-    text-align: center;
-    margin: 100px 0px 70px 0px;
-
-}
-#left-description {
-    padding-top: 5px;
-    width: 60%;
-    float: left;
-
-}
-.left-des {
-    width: 90%;
-    float: right;
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 50px;
-
-
-}
-#right-i-image {
-
-
-     width: 33%;
-     height: auto;
-     margin: 0 auto;
-}
-#R-image {
-    width: 28rem;
-    height: 28rem;
-    padding: 30px;
-    margin: 0 2% 0 77%;
-}
-#right-image {
-
-
-    background: url('../images/Albert_Einstein_photo_with_blackboard.jpg') no-repeat center center;
-
-    height: 100%;
-}
-#main {
-    height: 450px;
-    font-family: Rokkitt, sans-serif;
-
-}
-#prize {
-    color: gold;
-    background-color: gray;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    clear: both;
-
-    text-align: center;
-    margin-top: 15rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-}
-#main-description {
-    padding-top: 30px;
-    width: 60%;
-    float: left;
-    margin-top: 10px;
-
-}
-.main-des {
-    width: 90%;
-    float: right;
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 50px;
-}
-#right-a-image {
-    width: 33%;
-    height: auto;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-bottom: 40px;
-    margin-right: auto;
-}
-#right-b-image {
-
-    width: 28rem;
-    height: 25rem;
-    padding: 30px;
-    margin: 6% 5% 2% 77%;
-
-}
-#right-c-image {
-    background: url('../images/Prize_photo.jpg') no-repeat center center;
-
-    height: 100%;
-}
-#photo-gallery {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-    margin-top: 100px;
-}
-#photo-gallery > img {
-    width: 100%;
-}
-#timeline-box {
-    margin-bottom: 800px;
-}
-#timeline-hed {
-    margin-top: 70px;
-    text-align: center;
-    padding: 20px;
-    margin-right: 0px;
-    position: relative;
-    max-width: 100%
-}
-.main-box-left {
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 15%;
-    display: inline-block;
-    margin-bottom: 100px;
-}
-#box-1 {
-    border: 2px solid black;
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #fefbd8;
-}
-#box-2 {
-    border: 2px solid black;
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #fefbd8;
-}
-#box-3 {
-    border: 2px solid black;
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #fefbd8;
-}
-#box-4 {
-    border: 2px solid black;
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #fefbd8;
-}
-#box-5 {
-    border: 2px solid black;
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #fefbd8;
-}
-#box-1,
-#box-2,
-#box-3,
-#box-4,
-#box-5,
-#box-6,
-#box-7,
-#box-8,
-#box-9,
-#box-10 > p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    position: relative;
-}
-.main-box-right {
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 55%;
-    display: inline-block;
-    margin-bottom: 100px;
-}
-#box-6 {
-    border: 2px solid black;
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #80ced6;
-}
-#box-7 {
-    border: 2px solid black;
-
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #80ced6;
-}
-#box-8 {
-    border: 2px solid black;
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #80ced6;
-}
-#box-9 {
-    border: 2px solid black;
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #80ced6;
-}
-#box-10 {
-    border: 2px solid black;
-    width: 360px;
-    height: 80px;
-    margin-bottom: 10px;
-    background-color: #80ced6;
-}
-.fa-solid {
-    margin-left: 170px;
-    margin-top: 40px;
-}
-#box-5 > i {
-    margin-top: 50px;
-    margin-left: 420px;
-    position: absolute;
-}
-#box-10 > i {
-    margin-bottom: 0px;
-    position: relative;
-}
-#box-9 > i {
-    margin-top: 0px;
-    position: relative;
-    overflow: none;
-}
-#box-8 > i {
-    margin-top: 0px;
-    position: relative;
-}
-#box-7 > i {
-     margin-top: 0px;
-    position: relative;
-}
-#box-6 > i {
-    margin-bottom: 0px;
-    position: relative;
-}
-
- i {
-     color: black;
- }
-
- #a {
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-size: 15px;
-
- }
-
- /* Adding style to sign up form */
-
- .signup-section {
-     clear: left;
-     background: url('../images/Black_background.png');
-     background-size: cover;
-     background-position: center;
-     height: 700px;
-     color: #d4af37;
-     margin-top: 70px;
-     margin-bottom: 0px;
- }
-
- .history-form {
-     margin: 50px 10% 0px 0;
-     background-color: rgba(60, 60, 60, 0.6);
-     max-width: 350px;
-     position: absolute;
-     left: 10%;
-     padding: 20px;
-
- }
-
- .histroy-form>h2 {
-
-     margin-bottom: 10px;
-
- }
-
- .input-structure {
-     background: transparent;
-     color: #fafafa;
-     width: 100%;
-     height: 25px;
-     margin: 5px 0 20px 0;
-     border: 1px solid goldenrod;
-     border-radius: 2px;
- }
-
- .input-structure:hover {
-     border-color: #f16c6b;
- }
-
- .signup-button {
-     margin-top: 20px;
-     border-radius: 2px;
-     padding: 15px 32px 15px 32px;
-     text-align: center;
-     font-size: 100%;
-     background-color: #f16c6b;
-     color: #fafafa;
-     display: block;
- }
-
- .signup-button:hover {
-     background-color: #fafafa;
-     color: #f16c6b;
-
- }
-
- #signup-heading,
- #signup-paragraph {
-     color: #d4af37;
- }
-
- /*Add style to contact us page */
-
- #contact-us-form {
-     margin-bottom: 150px;
-     border: 1px solid whitesmoke;
- }
-
- #contact-us {
-     height: 650px;
-     font-family: Rokkitt, sans-serif;
-     color: black;
- }
-
- #contact-us-form #send-us-heading {
-
-     color: red;
-     background-color: transparent;
-     padding: 20px 20px 5px 20px;
-     text-align: center;
- }
-
- #send-us-heading {
-     text-align: center;
-     color: gold;
- } 
-
- #contact-heading {
-     color: gold;
-     background-color: gray;
-     padding: 20px;
-     text-align: center;
-     margin-top: 70px;
-     margin-bottom: 70px;
- }
-
- #get-intouch-heading {
-     color: gold;
-     background-color: transparent;
- }
-
- #contact-left-description {
-
-
-     width: 33%;
-     float: left;
-     margin-top: 200px;
-     margin-left: 200px;
- }
-
- .contact-left-des {
-     width: 40%;
-     float: right;
-     line-height: 30px;
-     clear: both;
-     margin-left: auto;
-     margin-right: auto;
- }
-
- #contact-area1 {
-     width: 33%;
-     height: 500px;
-
-     margin-left: 60%;
-     margin-bottom: 120px;
-     margin-right: auto;
- }
-
- #contact-area2 {
-     height: 650px;
-     margin-bottom: 200px;
-
- }
-
- .subject-structure {
-     background: transparent;
-     color: black;
-     width: 100%;
-     height: 30px;
-     margin: 5px 0 20px 0;
-     border: 1px solid blueviolet;
-     border-radius: 2px;
- }
-
- .message-structure {
-     background: transparent;
-     color: black;
-     width: 100%;
-     height: 80px;
-     margin: 5px 0 20px 0;
-     border: 1px solid blueviolet;
-     border-radius: 2px;
- }
-
- .contact-structure {
-     background: transparent;
-     color: black;
-     width: 100%;
-     height: 30px;
-     margin: 5px 0 20px 0;
-     border: 1px solid blueviolet;
-     border-radius: 2px;
- }
-
- .contact-button {
-     margin-top: 20px;
-     border-radius: 2px;
-     padding: 15px 32px 15px 32px;
-     text-align: center;
-     font-size: 100%;
-     background-color: #f16c6b;
-     color: gold;
-     display: block;
- }
-
- .contact-button:hover {
-     background-color: #fafafa;
-     color: #f16c6b;
-
- }
-
- #straight-writing {
-     text-align: center;
-     color: gold;
- }
-
- /* Media query for large devices */
-
- @media screen and (max-width: 1200px) {
-
-    /* Media query for home page to make to responsive */
+        font-size: 150%;
+        color: black;
+        background-color: white;
+        margin-left: 30px;
+
+    }
+    /* Header navigation */
+    #navigation li {
+        float: right;
+        list-style-type: none;
+        margin-right: 40px;
+    }
+
+    #navigation a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #navigation,
+    #site-name {
+        line-height: 70px;
+    }
+
+    #navigation a:hover {
+        border-bottom: 1px solid green;
+    }
+
+    /* Main image of home page */
+
+    #image-outer {
+        height: 450px;
+        width: 100%;
+        overflow: hidden;
+
+        position: relative;
+    }
+
+    #text-on-image #text-on-image h2 {
+        color: red;
+        font-family: Rokkitt, sans-serif;
+    }
+
+    #image-main {
+        height: 450px;
+        width: 100%;
+        background: url('../images/Energy_equation.jpg') no-repeat center center;
+
+        /* animates on loading page */
+        animation-name: h-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+    /* zoom for main image */
+
+    @keyframes h-zoom {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.1);
+        }
+    }
+
+    /* text area on main image on home page */
+
+    #text-on-image {
+        font-size: 90%;
+        font-family: Rokkitt, sans-serif;
+
+        width: 300px;
+        height: 200px;
+        padding-top: 40px;
+        padding-left: 10px;
+        background-color: gray;
+        bottom: 30px;
+        right: 150px;
+        position: absolute;
+    }
+
+    /* About us section */
 
     #about-us {
-            width: 65%;
-            height: 850px;
-            margin: 0 auto;
-        }
-    
-        #about-heading {
-            margin: 90px 0px;
-            max-width: 100%;
-        }
-    
-        #about-left-description,
-        #about-a-image {
-            width: 100%;
-            height: 400px;
+        height: 500px;
+        font-family: Rokkitt, sans-serif;
+    }
+    #about-heading {
+
+        color: gold;
+        background-color: gray;
+        padding: 20px;
+        text-align: center;
+        margin: 50px 0;
+
+    }
+
+    #about-left-description {
+
+
+            width: 40%;
             float: left;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-    
-        }
-    
-        #about-b-image {
-            margin: 0;
-            width: 100%;
-        }
- }
+            margin-top: 100px;
+            margin-left: 5%;
+    }
+
+    .about-left-des {
+        width: 90%;
+        float: right;
+        line-height: 30px;
+        clear: both;
+    }
+    #about-a-image {
+        width: 33%;
+        height: auto;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-bottom: 40px;
+        margin-right: auto;
+    }
+
+    #about-b-image {
+        width: 28rem;
+        height: 25rem;
+        padding: 30px;
+        margin: 6% 5% 2% 66%;
+    }
+
+    #about-c-image {
+        background: url('../images/old_books.jpg') no-repeat center center;
+
+        height: 100%;
+    }
+
+    /* Footer */
+    .social-container {
+        display: flex;
+
+        width: 100%;
+        max-height: 8px;
+        margin-top: 10%;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .social-container>div {
+
+
+        display: inline;
+        font-size: 150%;
+        padding: 10%;
+        width: 10%;
+        height: 1%;
+        background-color: rgb(204, 189, 189);
+        margin: 0;
+
+    }
+
+    #social-color i {
+        color: black;
+        font-weight: bold;
+    }
+
+    /* Albert Einstein's life background and an image section */
+
+    #intro {
+        height: 450px;
+        font-family: Rokkitt, sans-serif;
+    }
+    #scientist {
+
+        color: gold;
+        background-color: gray;
+        padding: 20px;
+        text-align: center;
+        margin: 100px 0px 70px 0px;
+
+    }
+    #left-description {
+        padding-top: 5px;
+        width: 60%;
+        float: left;
+
+    }
+    .left-des {
+        width: 90%;
+        float: right;
+        line-height: 30px;
+        clear: both;
+        margin-bottom: 50px;
+
+
+    }
+    #right-i-image {
+
+
+        width: 33%;
+        height: auto;
+        margin: 0 auto;
+    }
+    #R-image {
+        width: 28rem;
+        height: 28rem;
+        padding: 30px;
+        margin: 0 2% 0 77%;
+    }
+    #right-image {
+
+
+        background: url('../images/Albert_Einstein_photo_with_blackboard.jpg') no-repeat center center;
+
+        height: 100%;
+    }
+    #main {
+        height: 450px;
+        font-family: Rokkitt, sans-serif;
+
+    }
+    #prize {
+        color: gold;
+        background-color: gray;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        clear: both;
+
+        text-align: center;
+        margin-top: 15rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    #main-description {
+        padding-top: 30px;
+        width: 60%;
+        float: left;
+        margin-top: 10px;
+
+    }
+    .main-des {
+        width: 90%;
+        float: right;
+        line-height: 30px;
+        clear: both;
+        margin-bottom: 50px;
+    }
+    #right-a-image {
+        width: 33%;
+        height: auto;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-bottom: 40px;
+        margin-right: auto;
+    }
+    #right-b-image {
+
+        width: 28rem;
+        height: 25rem;
+        padding: 30px;
+        margin: 6% 5% 2% 77%;
+
+    }
+    #right-c-image {
+        background: url('../images/Prize_photo.jpg') no-repeat center center;
+
+        height: 100%;
+    }
+    #photo-gallery {
+        clear: both;
+        line-height: 0;
+        column-count: 4;
+        column-gap: 0;
+        margin-top: 100px;
+    }
+    #photo-gallery > img {
+        width: 100%;
+    }
+    #timeline-box {
+        margin-bottom: 800px;
+    }
+    #timeline-hed {
+        margin-top: 70px;
+        text-align: center;
+        padding: 20px;
+        margin-right: 0px;
+        position: relative;
+        max-width: 100%
+    }
+    .main-box-left {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 15%;
+        display: inline-block;
+        margin-bottom: 100px;
+    }
+    #box-1 {
+        border: 2px solid black;
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #fefbd8;
+    }
+    #box-2 {
+        border: 2px solid black;
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #fefbd8;
+    }
+    #box-3 {
+        border: 2px solid black;
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #fefbd8;
+    }
+    #box-4 {
+        border: 2px solid black;
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #fefbd8;
+    }
+    #box-5 {
+        border: 2px solid black;
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #fefbd8;
+    }
+    #box-1,
+    #box-2,
+    #box-3,
+    #box-4,
+    #box-5,
+    #box-6,
+    #box-7,
+    #box-8,
+    #box-9,
+    #box-10 > p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        position: relative;
+    }
+    .main-box-right {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 55%;
+        display: inline-block;
+        margin-bottom: 100px;
+    }
+    #box-6 {
+        border: 2px solid black;
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #80ced6;
+    }
+    #box-7 {
+        border: 2px solid black;
+
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #80ced6;
+    }
+    #box-8 {
+        border: 2px solid black;
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #80ced6;
+    }
+    #box-9 {
+        border: 2px solid black;
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #80ced6;
+    }
+    #box-10 {
+        border: 2px solid black;
+        width: 360px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #80ced6;
+    }
+    .fa-solid {
+        margin-left: 170px;
+        margin-top: 40px;
+    }
+    #box-5 > i {
+        margin-top: 50px;
+        margin-left: 420px;
+        position: absolute;
+    }
+    #box-10 > i {
+        margin-bottom: 0px;
+        position: relative;
+    }
+    #box-9 > i {
+        margin-top: 0px;
+        position: relative;
+        overflow: none;
+    }
+    #box-8 > i {
+        margin-top: 0px;
+        position: relative;
+    }
+    #box-7 > i {
+        margin-top: 0px;
+        position: relative;
+    }
+    #box-6 > i {
+        margin-bottom: 0px;
+        position: relative;
+    }
+
+    i {
+        color: black;
+    }
+
+    #a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+
+    }
+
+    /* Adding style to sign up form */
+
+    .signup-section {
+        clear: left;
+        background: url('../images/Black_background.png');
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+        color: #d4af37;
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+
+    .history-form {
+        margin: 50px 10% 0px 0;
+        background-color: rgba(60, 60, 60, 0.6);
+        max-width: 350px;
+        position: absolute;
+        left: 10%;
+        padding: 20px;
+
+    }
+
+    .histroy-form>h2 {
+
+        margin-bottom: 10px;
+
+    }
+
+    .input-structure {
+        background: transparent;
+        color: #fafafa;
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid goldenrod;
+        border-radius: 2px;
+    }
+
+    .input-structure:hover {
+        border-color: #f16c6b;
+    }
+
+    .signup-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #f16c6b;
+        color: #fafafa;
+        display: block;
+    }
+
+    .signup-button:hover {
+        background-color: #fafafa;
+        color: #f16c6b;
+
+    }
+
+    #signup-heading,
+    #signup-paragraph {
+        color: #d4af37;
+    }
+
+    /*Add style to contact us page */
+
+    #contact-us-form {
+        margin-bottom: 150px;
+        border: 1px solid whitesmoke;
+    }
+
+    #contact-us {
+        height: 650px;
+        font-family: Rokkitt, sans-serif;
+        color: black;
+    }
+
+    #contact-us-form #send-us-heading {
+
+        color: red;
+        background-color: transparent;
+        padding: 20px 20px 5px 20px;
+        text-align: center;
+    }
+
+    #send-us-heading {
+        text-align: center;
+        color: gold;
+    } 
+
+    #contact-heading {
+        color: gold;
+        background-color: gray;
+        padding: 20px;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    #get-intouch-heading {
+        color: gold;
+        background-color: transparent;
+    }
+
+    #contact-left-description {
+
+
+        width: 33%;
+        float: left;
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    .contact-left-des {
+        width: 40%;
+        float: right;
+        line-height: 30px;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact-area1 {
+        width: 33%;
+        height: 500px;
+
+        margin-left: 60%;
+        margin-bottom: 120px;
+        margin-right: auto;
+    }
+
+    #contact-area2 {
+        height: 650px;
+        margin-bottom: 200px;
+
+    }
+
+    .subject-structure {
+        background: transparent;
+        color: black;
+        width: 100%;
+        height: 30px;
+        margin: 5px 0 20px 0;
+        border: 1px solid blueviolet;
+        border-radius: 2px;
+    }
+
+    .message-structure {
+        background: transparent;
+        color: black;
+        width: 100%;
+        height: 80px;
+        margin: 5px 0 20px 0;
+        border: 1px solid blueviolet;
+        border-radius: 2px;
+    }
+
+    .contact-structure {
+        background: transparent;
+        color: black;
+        width: 100%;
+        height: 30px;
+        margin: 5px 0 20px 0;
+        border: 1px solid blueviolet;
+        border-radius: 2px;
+    }
+
+    .contact-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #f16c6b;
+        color: gold;
+        display: block;
+    }
+
+    .contact-button:hover {
+        background-color: #fafafa;
+        color: #f16c6b;
+
+    }
+
+    #straight-writing {
+        text-align: center;
+        color: gold;
+    }
+
+    /* Media query for large devices */
+
+    @media screen and (max-width: 1200px) {
+
+        /* Media query for home page to make it responsive */
+
+        #about-us {
+                width: 65%;
+                height: 850px;
+                margin: 0 auto;
+            }
+        
+            #about-heading {
+                margin: 90px 0px;
+                max-width: 100%;
+            }
+        
+            #about-left-description,
+            #about-a-image {
+                width: 100%;
+                height: 400px;
+                float: left;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+        
+            }
+        
+            #about-b-image {
+                margin: 0;
+                width: 100%;
+            }
+
+        /* Media query for Albert Einstein page to make it responsive */
+
+            #intro {
+                width: 65%;
+                height: auto;
+                margin: 0 auto;
+            }
+
+                #scientist {
+                margin: 90px 0px;
+                max-width: 100%;
+            }
+        
+        
+            #left-description,
+            #right-i-image {
+                width: 100%;
+                float: left;
+                padding: 0;
+                margin: 0;
+        
+            }
+        
+            #R-image {
+                margin: 0;
+        
+                width: 100%
+            }
+
+            #main {
+                width: 65%;
+                height: auto;
+                margin: 0 auto;
+            }
+                
+            #main-description,
+            #right-a-image {
+                width: 100%;
+                float: left;
+                padding: 0;
+                margin: 0;
+                
+            }
+                
+            #right-a-image {
+                background-size: 100%;
+            }
+                
+            #right-b-image {
+                
+                margin: 0;
+                width: 100%;
+                
+                
+            }
+                
+            #right-c-image {
+                background-size: 100%;
+            }
+                
+                
+            #prize {
+                padding: 30px 0;
+                margin: 0 0 3% 0;
+            }
+                
+            img {
+                width: 100%;
+            }
+    }
