@@ -943,5 +943,32 @@
             #about-b-image {
                     margin: 0px 0px 0px 0px;
                     width: 100%
-                                }
+
+            }
+
+        /* Media query for Albert Einstein page  */
+
+            #intro {
+
+                    width: 65%;
+                    height: auto;
+                    margin: 0 auto;
+
+            }
+        
+            #right-c-image {
+
+                    background-size: 100%;
+
+            }
+        
+            #scientist {
+        
+                    color: gold;
+                    background-color: gray;
+                    padding: 20px;
+                    text-align: center;
+                    margin: 100px 0px;
+        
+            }
         }
