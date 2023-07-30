@@ -639,7 +639,7 @@
         color: gold;
     }
 
-    /* Media query for large devices */
+    /* Media query for large devices like tablets */
 
     @media screen and (max-width: 1200px) {
 
@@ -878,3 +878,9 @@
             }
 
     }
+
+    /* Media query for small devices like smartphones */
+
+        @media screen and (max-width: 950px) {
+            
+        }
