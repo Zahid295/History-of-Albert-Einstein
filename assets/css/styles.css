@@ -512,3 +512,127 @@ h2 {
  #signup-heading,
  #signup-paragraph {
      color: #d4af37;
+ }
+
+ /*Add style to contact us page */
+
+ #contact-us-form {
+     margin-bottom: 150px;
+     border: 1px solid whitesmoke;
+ }
+
+ #contact-us {
+     height: 650px;
+     font-family: Rokkitt, sans-serif;
+     color: black;
+ }
+
+ #contact-us-form #send-us-heading {
+
+     color: red;
+     background-color: transparent;
+     padding: 20px 20px 5px 20px;
+     text-align: center;
+ }
+
+ #send-us-heading {
+     text-align: center;
+ }
+
+ #contact-heading {
+     color: gold;
+     background-color: gray;
+     padding: 20px;
+     text-align: center;
+     margin-top: 70px;
+     margin-bottom: 70px;
+ }
+
+ #get-intouch-heading {
+     color: gold;
+     background-color: transparent;
+ }
+
+ #contact-left-description {
+
+
+     width: 33%;
+     float: left;
+     margin-top: 200px;
+     margin-left: 200px;
+ }
+
+ .contact-left-des {
+     width: 40%;
+     float: right;
+     line-height: 30px;
+     clear: both;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ #contact-area1 {
+     width: 33%;
+     height: 500px;
+
+     margin-left: 60%;
+     margin-bottom: 120px;
+     margin-right: auto;
+ }
+
+ #contact-area2 {
+     height: 650px;
+     margin-bottom: 200px;
+
+ }
+
+ .subject-structure {
+     background: transparent;
+     color: black;
+     width: 100%;
+     height: 30px;
+     margin: 5px 0 20px 0;
+     border: 1px solid blueviolet;
+     border-radius: 2px;
+ }
+
+ .message-structure {
+     background: transparent;
+     color: black;
+     width: 100%;
+     height: 80px;
+     margin: 5px 0 20px 0;
+     border: 1px solid blueviolet;
+     border-radius: 2px;
+ }
+
+ .contact-structure {
+     background: transparent;
+     color: black;
+     width: 100%;
+     height: 30px;
+     margin: 5px 0 20px 0;
+     border: 1px solid blueviolet;
+     border-radius: 2px;
+ }
+
+ .contact-button {
+     margin-top: 20px;
+     border-radius: 2px;
+     padding: 15px 32px 15px 32px;
+     text-align: center;
+     font-size: 100%;
+     background-color: #f16c6b;
+     color: gold;
+     display: block;
+ }
+
+ .contact-button:hover {
+     background-color: #fafafa;
+     color: #f16c6b;
+
+ }
+
+ #straight-writing {
+     text-align: center;
+ }
