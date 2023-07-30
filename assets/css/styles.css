@@ -971,4 +971,23 @@
                     margin: 100px 0px;
         
             }
+
+        /* Media query for Albert Einstein page  */
+
+            #timline-hed {
+
+                    margin: 100px 0px 50px 0px;
+                    text-align: center;
+                    padding: 20px;
+                    position: relative;
+                    max-width: 100%;
+
+            }
+
+            #box-5>i {
+                    margin-top: 80px;
+                    margin-left: 120px;
+                    position: absolute;
+            
+            }
         }
