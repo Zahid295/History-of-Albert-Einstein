@@ -826,4 +826,51 @@
                 margin: 150px 10% 0px 0;
             }
 
+        /* Media query for Sign up page to make it responsive */
+
+            #contact-us {
+                width: 65%;
+                height: auto;
+                margin: 0 auto;
+            }
+            
+            #contact-heading {
+                padding: 30px 0;
+                margin: 0 0 3% 0;
+            }
+            
+            #contact-left-description {
+                width: 100%;
+                float: right;
+                padding: 0;
+                margin: 0px 0px 0px 0px;
+            
+            }
+            
+            .contact-left-des {
+                margin: 0px 0px 10px 0px;
+            }
+            
+            #contact-area1 {
+                width: 100%;
+                float: right;
+                padding: 0;
+                margin: 0px 320px 0px 0px;
+            
+            }
+            
+            #contact-area1 {
+                background-size: 100%;
+            }
+            
+            #contact-area2 {
+            
+                margin: 0px 200px 0px 0px;
+                width: 100%;
+            }
+            
+            #contact-area3 {
+                background-size: 100%;
+            }
+
     }
