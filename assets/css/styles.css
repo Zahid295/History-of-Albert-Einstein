@@ -808,4 +808,22 @@
             
             }
 
+       /* Media query for Sign up page to make it responsive */
+
+            .signup-section {
+                clear: left;
+                background-size: cover;
+                background-position: center;
+                background: url('../images/books-gf7e5f1c3d_1280.jpg');
+                height: 900px;
+                width: 100%;
+                color: #d4af37;
+                margin-top: 0px;
+            
+            }
+            
+            .history-form {
+                margin: 150px 10% 0px 0;
+            }
+
     }
