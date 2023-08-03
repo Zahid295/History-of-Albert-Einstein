@@ -93,6 +93,7 @@
 
             .nav-container.nav-box {
                 flex-shrink: 0;
+                flex-grow: 0;
 
 
             }
@@ -1349,6 +1350,13 @@
                     width: 20%;
                     height: 60px;
                     display: inline-block;
+                }
+
+                .nav-container.nav-box {
+                    flex-shrink: 0;
+                    flex-grow: 0;
+
+
                 }
 
                 /* For events page */
