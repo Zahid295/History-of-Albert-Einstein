@@ -882,7 +882,7 @@
             #box-10 {
                 width: 100px;
                 height: 170px;
-                margin-left: 15%;
+                margin-left: 70%;
                 margin-right: 0%;
             }
 
@@ -902,7 +902,7 @@
             }
 
             .fa-solid {
-                margin-left: 60px;
+                margin-left: 150px;
                 margin-top: 40px;
             }
 
@@ -1219,5 +1219,49 @@
                 height: 60px;
                 display: inline-block;
             }
+            
+            /* For events page */
 
+            #box-1,
+            #box-2,
+            #box-3,
+            #box-4,
+            #box-5,
+            #box-6,
+            #box-7,
+            #box-8,
+            #box-9,
+            #box-10 {
+                width: 100px;
+                height: 170px;
+                margin-left: 15%;
+                margin-right: 0%;
+            }
+            
+            #box-1,
+            #box-2,
+            #box-3,
+            #box-4,
+            #box-5,
+            #box-6,
+            #box-7,
+            #box-8,
+            #box-9,
+            #box-10 > p {
+                text-align: left;
+                word-wrap: anywhere;
+            
+            }
+            
+            .fa-solid {
+                margin-left: 50px;
+                margin-top: 40px;
+            }
+            
+            #box-5 >i {
+                margin-top: 80px;
+                margin-left: 120px;
+                position: absolute;
+            
+            }
         }
