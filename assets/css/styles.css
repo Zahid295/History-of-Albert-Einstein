@@ -1290,4 +1290,16 @@
             #send-us-heading {
                 text-align: center;
             }
+
+            #photo-gallery {
+                clear: both;
+                line-height: 0;
+                column-count: 4;
+                column-gap: 0;
+                margin-bottom: 550px;
+            }
+            
+            #photo-gallery>img {
+                width: 100%;
+            }
         }
