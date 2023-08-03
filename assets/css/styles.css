@@ -121,6 +121,7 @@
             height: 450px;
             width: 100%;
             background: url('../images/Energy_equation.jpg') no-repeat center center;
+            
 
             /* animates on loading page */
             animation-name: h-zoom;
@@ -1060,6 +1061,11 @@
             #image-outer {
                 width: 100%;
                 height: auto;
+                
+            }
+            
+            #image-main {
+                background-size: 100%;
             }
 
             /* Media query for about us section */
@@ -1283,6 +1289,17 @@
 
             /* for header */
 
+            #image-outer {
+                height: 400px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+            }
+
+            #image-main {
+                background-size: 100%;
+            }
+
             .nav-container {
                 display: flex;
                 height: 100px;
@@ -1325,7 +1342,7 @@
             #box-7,
             #box-8,
             #box-9,
-            #box-10>p {
+            #box-10 > p {
                 text-align: left;
                 word-wrap: anywhere;
 
@@ -1336,7 +1353,7 @@
                 margin-top: 40px;
             }
 
-            #box-5>i {
+            #box-5 > i {
                 margin-top: 80px;
                 margin-left: 120px;
                 position: absolute;
@@ -1386,7 +1403,7 @@
                 margin-bottom: 550px;
             }
 
-            #photo-gallery>img {
+            #photo-gallery > img {
                 width: 100%;
             }
 
