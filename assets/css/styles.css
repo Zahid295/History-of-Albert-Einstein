@@ -17,6 +17,7 @@
             font-family: Roboto, sans-serif;
             text-transform: uppercase;
             color: gold;
+            filter: contrast(1.6);
             background-color: gray;
 
 
@@ -33,6 +34,8 @@
 
         #site-name {
             text-align: center;
+            color:gold;
+            filter: contrast(1.6);
 
         }
 
@@ -46,7 +49,7 @@
 
         }
 
-        .log-container>div {
+        .log-container > div {
 
 
             display: inline;
@@ -55,6 +58,7 @@
             width: 100%;
             height: 1%;
             background-color: rgb(204, 189, 189);
+            filter: contrast(1.8);
             margin: 0;
         }
 
@@ -95,6 +99,8 @@
 
         .nav-box a {
             text-decoration: none;
+            color: black;
+            font-weight: bold;
         }
 
         #nav-flex {
@@ -167,6 +173,7 @@
         #about-heading {
 
             color: gold;
+            filter: contrast(1.6);
             background-color: gray;
             padding: 20px;
             text-align: center;
@@ -286,6 +293,7 @@
         #scientist {
 
             color: gold;
+            filter: contrast(1.6);
             background-color: gray;
             padding: 20px;
             text-align: center;
@@ -418,6 +426,8 @@
             margin-right: 0px;
             position: relative;
             max-width: 100%;
+            color: gold;
+            filter: contrast(1.6);
         }
 
         .main-box-left {
@@ -673,6 +683,7 @@
 
         #contact-heading {
             color: gold;
+            filter: contrast(1.6);
             background-color: gray;
             padding: 20px;
             text-align: center;
