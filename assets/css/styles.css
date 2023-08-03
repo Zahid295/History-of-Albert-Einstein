@@ -558,34 +558,34 @@
             margin-top: 40px;
         }
 
-        #box-5>i {
+        #box-5 > i {
             margin-top: 50px;
             margin-left: 420px;
             position: absolute;
         }
 
-        #box-10>i {
+        #box-10 > i {
             margin-bottom: 0px;
             position: relative;
         }
 
-        #box-9>i {
+        #box-9 > i {
             margin-top: 0px;
             position: relative;
             overflow: hidden;
         }
 
-        #box-8>i {
+        #box-8 > i {
             margin-top: 0px;
             position: relative;
         }
 
-        #box-7>i {
+        #box-7 > i {
             margin-top: 0px;
             position: relative;
         }
 
-        #box-6>i {
+        #box-6 > i {
             margin-bottom: 0px;
             position: relative;
         }
@@ -623,7 +623,7 @@
 
         }
 
-        .histroy-form>h2 {
+        .histroy-form > h2 {
 
             margin-bottom: 10px;
 
