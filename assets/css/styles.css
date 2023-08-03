@@ -972,7 +972,7 @@
 
         }
 
-        /* Media query for small devices like smartphones */
+        /* Media query for small devices like tablets */
 
         @media screen and (max-width: 950px) {
 
@@ -1127,7 +1127,7 @@
             #box-7,
             #box-8,
             #box-9,
-            #box-10 >p {
+            #box-10 > p {
                 text-align: left;
                 word-wrap: anywhere;
             
@@ -1197,4 +1197,27 @@
             #send-us-heading {
                 text-align: center;
             }
+        }
+
+        /* Media query for small devices like smart phones */
+
+        @media screen and (max-width: 550px) {
+
+            /* for header */
+
+            .nav-container {
+                display: flex;
+                height: 100px;
+                width: 100%;
+                flex-wrap: nowrap;
+                justify-content: center;
+                justify-content: space-between;
+            }
+            
+            .nav-box {
+                width: 15%;
+                height: 60px;
+                display: inline-block;
+            }
+
         }
