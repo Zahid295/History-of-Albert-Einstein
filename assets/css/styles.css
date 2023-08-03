@@ -293,8 +293,10 @@
 
 
             background: url('../images/Albert_Einstein_photo_with_blackboard.jpg') no-repeat center center;
-
+            
             height: 100%;
+            
+            
         }
 
         #main {
@@ -352,8 +354,9 @@
 
         #right-c-image {
             background: url('../images/Prize_photo.jpg') no-repeat center center;
-
+            
             height: 100%;
+            
         }
 
         #photo-gallery {
@@ -767,6 +770,13 @@
                 width: 100%;
             }
 
+            #about-c-image {
+                background: url('../images/old_books.jpg') no-repeat center center;
+                height: 100%;
+                background-size: 70%;
+                margin-right: 50px;
+            }
+
             /* Media query for Albert Einstein page to make it responsive */
 
             #intro {
@@ -796,6 +806,9 @@
                 width: 100%
             }
 
+            
+
+
             #main {
                 width: 65%;
                 height: auto;
@@ -823,9 +836,7 @@
 
             }
 
-            #right-c-image {
-                background-size: 100%;
-            }
+            
 
 
             #prize {
@@ -1039,6 +1050,13 @@
             #about-b-image {
                 margin: 0px 0px 0px 0px;
                 width: 100%
+            }
+
+            #about-c-image {
+                background: url('../images/old_books.jpg') no-repeat center center;
+                height: 100%;
+                background-size: 70%;
+                margin-right: 50px;
             }
 
             /* Media query for info  */
@@ -1305,7 +1323,7 @@
 
             #about-us {
                 width: 70%;
-                height: 1100px;
+                height: 650px;
                 margin: 0 auto;
             }
 
@@ -1324,9 +1342,9 @@
 
             #about-c-image {
                 background: url('../images/old_books.jpg') no-repeat center center;
-                margin-right: 60px;
-                margin-top: 100px;
-            
+                
                 height: 100%;
+                background-size: 70%;
+                margin-right: 50px;
             }
         }
