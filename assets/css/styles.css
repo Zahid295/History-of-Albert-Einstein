@@ -1497,10 +1497,10 @@
             line-height: 0;
             column-count: 4;
             column-gap: 0;
-            margin-bottom: 550px;
+            margin-bottom: 650px;
         }
 
-        #gallery>img {
+        #gallery > img {
             width: 100%;
         }
 
