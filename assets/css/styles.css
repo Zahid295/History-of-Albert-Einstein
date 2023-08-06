@@ -167,7 +167,7 @@
     /* About us section */
 
     #about-us {
-        height: 500px;
+        height: 750px;
         font-family: Rokkitt, sans-serif;
     }
 
@@ -226,12 +226,12 @@
 
         width: 100%;
         max-height: 8px;
-        margin-top: 10%;
+        
         justify-content: center;
         justify-content: space-between;
     }
 
-    .social-container>div {
+    .social-container > div {
 
 
         display: inline;
@@ -256,33 +256,31 @@
 
     .paragraph-container {
         display: flex;
-
         width: 100%;
         max-height: 8px;
-        margin-top: 10%;
+        margin-top: 5px;
         justify-content: center;
         justify-content: space-between;
-
+        
     }
 
-    .paragraph-container>div {
-
-
+    .paragrapgh-container div {
         display: inline;
-        font-size: 150%;
-        padding: 10%;
+        font-size: 100%;
+        padding: 5px;
         width: 100%;
         height: 1%;
         background-color: #6b5b95;
+        filter: contrast(1.8);
         margin: 0;
-
-
-
     }
 
-    .paragraph-container>p {
+    #edu-purpose {
         text-align: center;
+        color: gold;
+        filter: contrast(1.6);
     }
+   
 
     /* Albert Einstein's life background and an image section */
 
@@ -819,7 +817,7 @@
         */
         #about-us {
             width: 65%;
-            height: 550px;
+            height: 950px;
             margin: 0 auto;
         }
 
@@ -860,6 +858,32 @@
             margin-right: 50px;
 
 
+        }
+        .paragraph-container {
+            display: flex;
+            width: 100%;
+            max-height: 8px;
+            margin-top: 5px;
+            justify-content: center;
+            justify-content: space-between;
+        
+        }
+        
+        .paragrapgh-container div {
+            display: inline;
+            font-size: 100%;
+            padding: 5px;
+            width: 100%;
+            height: 1%;
+            background-color: #6b5b95;
+            filter: contrast(1.8);
+            margin: 0;
+        }
+        
+        #edu-purpose {
+            text-align: center;
+            color: gold;
+            filter: contrast(1.6);
         }
 
         /* Media query for Albert Einstein page to make it responsive */
@@ -1109,7 +1133,7 @@
 
         #about-us {
             width: 65%;
-            height: auto;
+            height: 900px;
             margin: 0 auto;
         }
 
@@ -1147,6 +1171,32 @@
             height: 100%;
             background-size: 70%;
             margin-right: 50px;
+        }
+        .paragraph-container {
+            display: flex;
+            width: 100%;
+            max-height: 8px;
+            margin-top: 5px;
+            justify-content: center;
+            justify-content: space-between;
+        
+        }
+        
+        .paragrapgh-container div {
+            display: inline;
+            font-size: 100%;
+            padding: 5px;
+            width: 100%;
+            height: 1%;
+            background-color: #6b5b95;
+            filter: contrast(1.8);
+            margin: 0;
+        }
+        
+        #edu-purpose {
+            text-align: center;
+            color: gold;
+            filter: contrast(1.6);
         }
 
         /* Media query for info  */
@@ -1453,7 +1503,7 @@
 
         #about-us {
             width: 70%;
-            height: 660px;
+            height: 850px;
             margin: 0 auto;
         }
 
@@ -1461,7 +1511,7 @@
             width: 100%;
             float: left;
             padding: 0;
-            margin: 100px 0px 0px 0px;
+            margin: 15px 0px 0px 0px;
 
         }
 
