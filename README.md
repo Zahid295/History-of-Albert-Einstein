@@ -40,3 +40,11 @@ The main colors used are gold and Ultra violet.
 
 - Rokkitt font is used for paragraphs and logo and sans-serif is used in case Rokkitt font does not support.
 - Roboto is used for headings as the font promotes friendliness and open curves and sans-serif if Roboto does not work.
+  
+### Wireframes
+
+- Home page Wireframe [Click here to view]()
+- Info page Wireframe [Click here to view]()
+- Media page Wireframe [Click here to view]()
+- Events page Wireframe [Click here to view]()
+- Sign Up page Wireframe [Click here to view]()
