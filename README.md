@@ -17,3 +17,9 @@ You can view the live project website [here](https://zahid295.github.io/History-
 - As a first time user, I want to discover the life events of Albert Einstein.
 - As a first time user, I want to learn the scientific works of Albert Einstein.
 - As a first time user, I am looking for pictures of Albert Einstein and his Qoutes.
+  
+##### Returner user goals
+
+- As a returner user, I want to quickly discovery a method to contact.
+- As a returner user, I want to follow this website on social media to get latest content.
+- As a returner user, I want to sign up for newsletter.
