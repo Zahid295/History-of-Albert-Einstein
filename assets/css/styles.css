@@ -1368,6 +1368,48 @@ i {
 /* Media query for small devices like smart phones */
 
 @media screen and (max-width: 550px) {
+    
+    /* For Info Page */
+    #intro {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    #left-description {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    #right-i-image {
+        width: 80%;
+        float: left;
+        padding: 0;
+        margin: 0;
+    } 
+    #main {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    #main-description {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    #right-a-image {
+        width: 80%;
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
 
     /* for header */
 
@@ -1448,6 +1490,8 @@ i {
         position: absolute;
 
     }
+    
+    /* For contact us page */
 
     #contact-us {
         height: 700px;
@@ -1483,7 +1527,8 @@ i {
         text-align: center;
         padding: 0;
     }
-
+    
+    /* For Gallery page */
     #gallery {
         clear: both;
         line-height: 0;
