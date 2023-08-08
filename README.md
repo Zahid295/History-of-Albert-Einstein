@@ -113,3 +113,17 @@ Every page of the project was validated using the W3C Markup Validator and W3C C
 5. As a first time user, I am looking for pictures of Albert Einstein and his Qoutes.
 
 - Gallery page provides with pictures and Qoutes of Albert Einstein to those who are interested.
+
+##### Returner user Goals
+
+1. As a returner user, I want to quickly discovery a method to contact.
+
+- User can find contact us Form on Sign up page, below Sign up section with the heading of Contact US to ask any question. User can also find Email adress on the same page to contact and ask about any query.
+
+2. As a returner user, I want to follow this website on social media to get latest content.
+
+- User can find social media Contact detalis in Footer of each page.
+
+3. As a returner user, I want to sign up for newsletter.
+
+- Sign Up Form is provied on sign up page to easily loacte the form to sign up and get Newsletter.
