@@ -172,3 +172,25 @@ By forking the repository, we create a copy of the repository on our own account
 - To clone the directory, replace the current working directory with the one where you want it to be created.
 - Type the command git clone, and then paste the URL you copied earlier.
 - Press enter to create your local clone.
+  
+## Credits
+
+### Code
+
+- Hero Image animation code came from "Love Runnig".
+- Footer flex box code idea is from www.w3schools.com.
+
+### Content
+
+- The text content about Albert Einstein is from www.wikipedia.com
+- The idea of Hero Image cover text came from "Love running"
+- The idea of sign up Form on the image also came from "Love Running"
+
+### Media
+
+- Images were taken from [Pixabay](https://pixabay.com), [Unsplash](https://unsplash.com) and [Canva](https://www.canva.com)
+
+### Acknowledgements
+
+- Thanks to my Mentor for continual helpful feedback.
+- Thanks to Tutor support at Code Institute for their support.
