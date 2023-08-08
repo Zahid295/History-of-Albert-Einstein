@@ -66,3 +66,14 @@ The main colors used are gold and Ultra violet.
 
 - HTML
 - CSS3
+  
+### Frameworks, Libraries and Programes used
+
+- [Font Awesome](https://fontawesome.com/)-Social media icons for this website came from Font   awesome.
+- [Google Fonts](https://fonts.google.com/) - Fonts for this website are from Google Fonts
+- [Codeanywhere](https://codeanywhere.com/solutions/collaborate) - Codeanywhere was used as IDE.
+- [Git](https://git-scm.com/) -  Git was used for version control.
+- [GitHub](https://github.com) - GitHub was used to store project.
+- [Balsamiq](https://balsamiq.com/) - Wireframes were made using Balsamiq.
+- [Pixabay](https://pixabay.com/), [Canva](https://www.canva.com/) and [Unsplash](https://unsplash.com/) - were used for all images in the website.
+- [Am I Responsive](https://ui.dev/amiresponsive) - was used to see that site is responsive on     different screen sizes. A screenshot is taken from Am I Responsive.
