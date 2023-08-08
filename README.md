@@ -33,3 +33,10 @@ The main colors used are gold and Ultra violet.
 - Warmth, optimism, and positivism are all known to be evoked by the color gold. It is used for headings because it improves aesthetic appeal.
 
 - Ultra violet background is used to make the website catchy for users and to grab user attention it is being used as background for headings.
+  
+##### Typography
+
+ Two types of fonts are used throughout the website.
+
+- Rokkitt font is used for paragraphs and logo and sans-serif is used in case Rokkitt font does not support.
+- Roboto is used for headings as the font promotes friendliness and open curves and sans-serif if Roboto does not work.
