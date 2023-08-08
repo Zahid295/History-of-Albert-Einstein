@@ -77,3 +77,13 @@ The main colors used are gold and Ultra violet.
 - [Balsamiq](https://balsamiq.com/) - Wireframes were made using Balsamiq.
 - [Pixabay](https://pixabay.com/), [Canva](https://www.canva.com/) and [Unsplash](https://unsplash.com/) - were used for all images in the website.
 - [Am I Responsive](https://ui.dev/amiresponsive) - was used to see that site is responsive on     different screen sizes. A screenshot is taken from Am I Responsive.
+
+## Testing
+
+Every page of the project was validated using the W3C Markup Validator and W3C CSS Validator Services to make sure there were no syntax issues.
+
+- [W3C Markup Validator Results]()
+- [W3C CSS Validator Results]()
+- [Lighthouse Tool Results]()
+- Tested on the desktop versions of Chrome, Opera, and Microsoft Edge.
+- Chrome Developer Tools are used to test responsiveness on the following devices: Desktop, and laptop, Surface Duo, iPad Air, iPad Mini, iPhone 12 Pro, iPhone XR, iPhone SE, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra.
