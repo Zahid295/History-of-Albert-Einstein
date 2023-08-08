@@ -729,7 +729,7 @@ i {
     background-color: #6b5b95;
     padding: 20px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 70px;
 }
 
@@ -776,7 +776,7 @@ i {
     background: transparent;
     color: black;
     width: 100%;
-    height: 30px;
+    height: 40px;
     margin: 5px 0 20px 0;
     border: 1px solid blueviolet;
     border-radius: 2px;
