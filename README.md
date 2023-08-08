@@ -61,3 +61,8 @@ The main colors used are gold and Ultra violet.
 - Contact me section for any query.
 
 ## Technologies used
+
+### Languages
+
+- HTML
+- CSS3
