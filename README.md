@@ -133,3 +133,13 @@ Every page of the project was validated using the W3C Markup Validator and W3C C
 1. On the Gallery page footer appears in the center of page on tablets and smartphones but on larger screens like laptop and destop it was fine.
 
 2. Design Improvement- For the life timline chart provided on events page, i want to improve the structure and design. I hope to resolve this issue in the future.
+
+##### HTML Validation
+
+1. Warning- Gallery page lacks heading immediately below header.
+
+- On gallery page below header h2 heading was included to fix this.
+
+2. Warning- Events page shows duplicate 'Id'.
+
+- Different names for 'Id' were used to solve this.
