@@ -9,3 +9,11 @@ You can view the live project website [here](https://zahid295.github.io/History-
 ## User experience
 
 ### User Stories
+
+##### First time user goals
+
+- As a first time user, I want to know the purpose of this website and what it provides.
+- As a first time user, I want to know the life background of Albert Einstein.
+- As a first time user, I want to discover the life events of Albert Einstein.
+- As a first time user, I want to learn the scientific works of Albert Einstein.
+- As a first time user, I am looking for pictures of Albert Einstein and his Qoutes.
