@@ -1529,16 +1529,30 @@ i {
     }
     
     /* For Gallery page */
+
+    #gallery-heading {
+    
+        color: gold;
+        filter: contrast(1.6);
+        background-color: #6b5b95;
+        padding: 20px;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    
+    }
     #gallery {
         clear: both;
         line-height: 0;
-        column-count: 4;
+        column-count: 1;
         column-gap: 0;
         margin-bottom: 650px;
+
+        
     }
 
     #gallery>img {
         width: 100%;
+        border: 2px solid gold;
     }
 
     #about-us {
