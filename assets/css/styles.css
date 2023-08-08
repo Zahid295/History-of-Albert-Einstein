@@ -1,257 +1,856 @@
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt:wght@300&display=swap');
 
-    * {
-        margin: 0;
-        padding: 0;
-        border: none;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Rokkitt, sans-serif;
+    font-weight: 300;
+
+}
+
+/* Heading and logo */
+h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    color: gold;
+    filter: contrast(1.6);
+    background-color: #6b5b95;
+
+
+}
+
+/* Style for header */
+
+
+#header {
+    height: 125px;
+
+
+}
+
+#site-name {
+    text-align: center;
+    color: gold;
+    filter: contrast(1.6);
+
+}
+
+.logo-container {
+    display: flex;
+    width: 100%;
+    max-height: 8px;
+    margin-top: 5px;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.log-container>div {
+
+
+    display: inline;
+    font-size: 100%;
+    padding: 5px;
+    width: 100%;
+    height: 1%;
+    background-color: #6b5b95;
+    filter: contrast(1.8);
+    margin: 0;
+}
+
+.logo-box a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#header a:hover {
+    border-bottom: 1px solid green;
+}
+
+.nav-container {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.nav-box {
+    width: 10%;
+    height: 60px;
+    display: inline-block;
+}
+
+.nav-container.nav-box {
+    flex-shrink: 0;
+    flex-grow: 0;
+
+
+}
+
+.nav-box a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#nav-flex {
+    justify-content: center;
+
+}
+
+/* Main image of home page */
+
+#image-outer {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#text-on-image #text-on-image h2 {
+    color: red;
+    font-family: Rokkitt, sans-serif;
+}
+
+#image-main {
+    height: 450px;
+    width: 100%;
+    background: url('../images/Energy_equation.jpg') no-repeat center center;
+
+
+    /* animates on loading page */
+    animation-name: h-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* zoom for main image */
+
+@keyframes h-zoom {
+    from {
+        transform: scale(1);
     }
 
-    body {
-        font-family: Rokkitt, sans-serif;
-        font-weight: 300;
-
+    to {
+        transform: scale(1.1);
     }
+}
 
-    /* Heading and logo */
-    h2 {
-        font-family: Roboto, sans-serif;
-        text-transform: uppercase;
-        color: gold;
-        filter: contrast(1.6);
-        background-color: #6b5b95;
+/* text area on main image on home page */
 
+#text-on-image {
+    font-size: 90%;
+    font-family: Rokkitt, sans-serif;
 
-    }
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: #6b5b95;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
 
-    /* Style for header */
+/* About us section */
 
+#about-us {
+    height: 750px;
+    font-family: Rokkitt, sans-serif;
+}
 
-    #header {
-        height: 125px;
+#about-heading {
 
+    color: gold;
+    filter: contrast(1.6);
+    background-color: #6b5b95;
+    padding: 20px;
+    text-align: center;
+    margin: 50px 0;
 
-    }
+}
 
-    #site-name {
-        text-align: center;
-        color: gold;
-        filter: contrast(1.6);
-
-    }
-
-    .logo-container {
-        display: flex;
-        width: 100%;
-        max-height: 8px;
-        margin-top: 5px;
-        justify-content: center;
-        justify-content: space-between;
-
-    }
-
-    .log-container>div {
+#about-left-description {
 
 
-        display: inline;
-        font-size: 100%;
-        padding: 5px;
-        width: 100%;
-        height: 1%;
-        background-color: #6b5b95;
-        filter: contrast(1.8);
-        margin: 0;
-    }
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 5%;
+}
 
-    .logo-box a {
-        text-decoration: none;
-        font-weight: bold;
-    }
+.about-left-des {
+    width: 90%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+}
 
-    #header a:hover {
-        border-bottom: 1px solid green;
-    }
+#about-a-image {
+    width: 33%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+}
 
-    .nav-container {
-        display: flex;
-        height: 100px;
-        width: 100%;
-        flex-wrap: nowrap;
-        justify-content: center;
+#about-b-image {
+    width: 28rem;
+    height: 25rem;
+    padding: 30px;
+    margin: 6% 5% 2% 66%;
+}
 
+#about-c-image {
+    background: url('../images/old_books.jpg') no-repeat center center;
 
+    height: 100%;
+}
 
+/* Footer */
+.social-container {
+    display: flex;
 
+    width: 100%;
+    max-height: 8px;
 
+    justify-content: center;
+    justify-content: space-between;
+}
 
-    }
-
-    .nav-box {
-        width: 10%;
-        height: 60px;
-        display: inline-block;
-    }
-
-    .nav-container.nav-box {
-        flex-shrink: 0;
-        flex-grow: 0;
-
-
-    }
-
-    .nav-box a {
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-    }
-
-    #nav-flex {
-        justify-content: center;
-
-    }
-
-    /* Main image of home page */
-
-    #image-outer {
-        height: 450px;
-        width: 100%;
-        overflow: hidden;
-
-        position: relative;
-    }
-
-    #text-on-image #text-on-image h2 {
-        color: red;
-        font-family: Rokkitt, sans-serif;
-    }
-
-    #image-main {
-        height: 450px;
-        width: 100%;
-        background: url('../images/Energy_equation.jpg') no-repeat center center;
+.social-container>div {
 
 
-        /* animates on loading page */
-        animation-name: h-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
+    display: inline;
+    font-size: 150%;
+    padding: 10%;
+    width: 10%;
+    height: 1%;
+    background-color: #6b5b95;
+    margin: 0;
 
-    /* zoom for main image */
+}
 
-    @keyframes h-zoom {
-        from {
-            transform: scale(1);
-        }
+#social-color i {
+    color: black;
+    font-weight: bold;
+}
 
-        to {
-            transform: scale(1.1);
-        }
-    }
+.social-container p {
+    color: black;
+    font-weight: bold;
+}
 
-    /* text area on main image on home page */
+.paragraph-container {
+    display: flex;
+    width: 100%;
+    max-height: 8px;
+    margin-top: 5px;
+    justify-content: center;
+    justify-content: space-between;
 
-    #text-on-image {
-        font-size: 90%;
-        font-family: Rokkitt, sans-serif;
+}
 
-        width: 300px;
-        height: 200px;
-        padding-top: 40px;
-        padding-left: 10px;
-        background-color: #6b5b95;
-        bottom: 30px;
-        right: 150px;
-        position: absolute;
-    }
+.paragrapgh-container div {
+    display: inline;
+    font-size: 100%;
+    padding: 5px;
+    width: 100%;
+    height: 1%;
+    background-color: #6b5b95;
+    filter: contrast(1.8);
+    margin: 0;
+}
 
-    /* About us section */
+#edu-purpose {
+    text-align: center;
+    color: gold;
+    filter: contrast(1.6);
+    background-color: #6b5b95;
+}
+
+
+/* Albert Einstein's life background and an image section */
+
+#intro {
+    height: 450px;
+    font-family: Rokkitt, sans-serif;
+}
+
+#scientist {
+
+    color: gold;
+    filter: contrast(1.6);
+    background-color: #6b5b95;
+    padding: 20px;
+    text-align: center;
+    margin: 0px 0px 70px 0px;
+
+}
+
+#left-description {
+    padding-top: 5px;
+    width: 60%;
+    float: left;
+
+}
+
+.left-des {
+    width: 90%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+
+
+}
+
+#right-i-image {
+
+
+    width: 33%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#R-image {
+    width: 28rem;
+    height: 28rem;
+    padding: 30px;
+    margin: 0 2% 0 77%;
+}
+
+#right-image {
+
+
+    background: url('../images/Albert_Einstein_photo_with_blackboard.jpg') no-repeat center center;
+
+    height: 100%;
+
+
+}
+
+#main {
+    height: 450px;
+    font-family: Rokkitt, sans-serif;
+
+}
+
+#prize {
+    color: gold;
+    background-color: #6b5b95;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    clear: both;
+
+    text-align: center;
+    margin-top: 15rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+#main-description {
+    padding-top: 30px;
+    width: 60%;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.main-des {
+    width: 90%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#right-a-image {
+    width: 33%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+}
+
+#right-b-image {
+
+    width: 28rem;
+    height: 25rem;
+    padding: 30px;
+    margin: 6% 5% 2% 77%;
+
+}
+
+#right-c-image {
+    background: url('../images/Prize_photo.jpg') no-repeat center center;
+
+    height: 100%;
+
+}
+
+#gallery-heading {
+
+    color: gold;
+    filter: contrast(1.6);
+    background-color: #6b5b95;
+    padding: 20px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+
+}
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    margin-top: 0px;
+}
+
+#gallery>img {
+    width: 100%;
+}
+
+#timeline-box {
+    margin-bottom: 800px;
+}
+
+#timeline-hed {
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 0px;
+    position: relative;
+    max-width: 100%;
+    color: gold;
+    filter: contrast(1.6);
+}
+
+.main-box-left {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 15%;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+#box-1 {
+    border: 2px solid black;
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #fefbd8;
+}
+
+#box-2 {
+    border: 2px solid black;
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #fefbd8;
+}
+
+#box-3 {
+    border: 2px solid black;
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #fefbd8;
+}
+
+#box-4 {
+    border: 2px solid black;
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #fefbd8;
+}
+
+#box-5 {
+    border: 2px solid black;
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #fefbd8;
+}
+
+#box-1,
+#box-2,
+#box-3,
+#box-4,
+#box-5,
+#box-6,
+#box-7,
+#box-8,
+#box-9,
+#box-10>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    position: relative;
+}
+
+.main-box-right {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 55%;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+#box-6 {
+    border: 2px solid black;
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #80ced6;
+}
+
+#box-7 {
+    border: 2px solid black;
+
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #80ced6;
+}
+
+#box-8 {
+    border: 2px solid black;
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #80ced6;
+}
+
+#box-9 {
+    border: 2px solid black;
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #80ced6;
+}
+
+#box-10 {
+    border: 2px solid black;
+    width: 360px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #80ced6;
+}
+
+.fa-solid {
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+#box-5>i {
+    margin-top: 50px;
+    margin-left: 420px;
+    position: absolute;
+}
+
+#box-10>i {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+#box-9>i {
+    margin-top: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+#box-8>i {
+    margin-top: 0px;
+    position: relative;
+}
+
+#box-7>i {
+    margin-top: 0px;
+    position: relative;
+}
+
+#box-6>i {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+i {
+    color: black;
+}
+
+#a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#b {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#c {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#d {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+/* Adding style to sign up form */
+
+.signup-section {
+    clear: left;
+    background: url('../images/Black_background.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: #d4af37;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.history-form {
+    margin: 50px 10% 0px 0;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 350px;
+    position: absolute;
+    left: 10%;
+    padding: 20px;
+
+}
+
+.histroy-form>h2 {
+
+    margin-bottom: 10px;
+
+}
+
+.input-structure {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+}
+
+.input-structure:hover {
+    border-color: #f16c6b;
+}
+
+.signup-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.signup-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+
+}
+
+#signup-heading,
+#signup-paragraph {
+    color: #d4af37;
+}
+
+/*Add style to contact us page */
+
+#contact-us-form {
+    margin-bottom: 150px;
+    border: 1px solid whitesmoke;
+}
+
+#contact-us {
+    height: 650px;
+    font-family: Rokkitt, sans-serif;
+    color: black;
+}
+
+#contact-us-form #send-us-heading {
+
+    color: red;
+    background-color: transparent;
+    padding: 20px 20px 5px 20px;
+    text-align: center;
+}
+
+#send-us-heading {
+    text-align: center;
+    color: gold;
+    padding: 15px 0px 15px 0px;
+}
+
+#contact-heading {
+    color: gold;
+    filter: contrast(1.6);
+    background-color: #6b5b95;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+#get-intouch-heading {
+    color: blue;
+    background-color: transparent;
+
+}
+
+#contact-left-description {
+
+
+    width: 33%;
+    float: left;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.contact-left-des {
+    width: 40%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-area1 {
+    width: 33%;
+    height: 500px;
+
+    margin-left: 60%;
+    margin-bottom: 120px;
+    margin-right: auto;
+}
+
+#contact-area2 {
+    height: 650px;
+    margin-bottom: 200px;
+
+}
+
+.subject-structure {
+    background: transparent;
+    color: black;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px 0;
+    border: 1px solid blueviolet;
+    border-radius: 2px;
+}
+
+.message-structure {
+    background: transparent;
+    color: black;
+    width: 100%;
+    height: 80px;
+    margin: 5px 0 20px 0;
+    border: 1px solid blueviolet;
+    border-radius: 2px;
+}
+
+.contact-structure {
+    background: transparent;
+    color: black;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px 0;
+    border: 1px solid blueviolet;
+    border-radius: 2px;
+}
+
+.contact-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: gold;
+    display: block;
+}
+
+.contact-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+
+}
+
+#straight-writing {
+    text-align: center;
+    color: gold;
+}
+
+/* Media query for large devices like tablets */
+
+@media screen and (max-width: 1200px) {
+
+    /* Media query for home page to make it responsive */
 
     #about-us {
-        height: 750px;
-        font-family: Rokkitt, sans-serif;
+        width: 65%;
+        height: 950px;
+        margin: 0 auto;
     }
 
     #about-heading {
-
-        color: gold;
-        filter: contrast(1.6);
-        background-color: #6b5b95;
-        padding: 20px;
-        text-align: center;
-        margin: 50px 0;
-
+        margin: 90px 0px;
+        max-width: 100%;
     }
 
     #about-left-description {
-
-
-        width: 40%;
+        width: 100%;
+        height: 250px;
         float: left;
-        margin-top: 100px;
-        margin-left: 5%;
-    }
-
-    .about-left-des {
-        width: 90%;
-        float: right;
-        line-height: 30px;
-        clear: both;
+        padding: 0;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
     }
 
     #about-a-image {
-        width: 33%;
-        height: auto;
-        margin-top: 0px;
-        margin-left: auto;
-        margin-bottom: 40px;
-        margin-right: auto;
+        width: 100%;
+        height: 400px;
+        float: left;
+        padding: 0;
+        margin: 0px 0px 100px 0px;
+        text-align: center;
+
+
     }
 
     #about-b-image {
-        width: 28rem;
-        height: 25rem;
-        padding: 30px;
-        margin: 6% 5% 2% 66%;
+        margin: 0;
+        width: 100%;
     }
 
     #about-c-image {
         background: url('../images/old_books.jpg') no-repeat center center;
-
         height: 100%;
-    }
-
-    /* Footer */
-    .social-container {
-        display: flex;
-
-        width: 100%;
-        max-height: 8px;
-        
-        justify-content: center;
-        justify-content: space-between;
-    }
-
-    .social-container > div {
+        background-size: 70%;
+        margin-right: 50px;
 
 
-        display: inline;
-        font-size: 150%;
-        padding: 10%;
-        width: 10%;
-        height: 1%;
-        background-color: #6b5b95;
-        margin: 0;
-
-    }
-
-    #social-color i {
-        color: black;
-        font-weight: bold;
-    }
-
-    .social-container p {
-        color: black;
-        font-weight: bold;
     }
 
     .paragraph-container {
@@ -261,7 +860,7 @@
         margin-top: 5px;
         justify-content: center;
         justify-content: space-between;
-        
+
     }
 
     .paragrapgh-container div {
@@ -281,212 +880,119 @@
         filter: contrast(1.6);
         background-color: #6b5b95;
     }
-   
 
-    /* Albert Einstein's life background and an image section */
+    /* Media query for Albert Einstein page to make it responsive */
 
     #intro {
-        height: 450px;
-        font-family: Rokkitt, sans-serif;
-    }
-
-    #scientist {
-
-        color: gold;
-        filter: contrast(1.6);
-        background-color: #6b5b95;
-        padding: 20px;
-        text-align: center;
-        margin: 0px 0px 70px 0px;
-
-    }
-
-    #left-description {
-        padding-top: 5px;
-        width: 60%;
-        float: left;
-
-    }
-
-    .left-des {
-        width: 90%;
-        float: right;
-        line-height: 30px;
-        clear: both;
-        margin-bottom: 50px;
-
-
-    }
-
-    #right-i-image {
-
-
-        width: 33%;
+        width: 65%;
         height: auto;
         margin: 0 auto;
     }
 
-    #R-image {
-        width: 28rem;
-        height: 28rem;
-        padding: 30px;
-        margin: 0 2% 0 77%;
+    #scientist {
+        margin: 50px 0px 70px 0px;
+        max-width: 100%;
     }
 
-    #right-image {
 
+    #left-description,
+    #right-i-image {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0;
 
-        background: url('../images/Albert_Einstein_photo_with_blackboard.jpg') no-repeat center center;
+    }
 
-        height: 100%;
+    #R-image {
+        margin: 0;
 
-
+        width: 100%
     }
 
     #main {
-        height: 450px;
-        font-family: Rokkitt, sans-serif;
-
+        width: 65%;
+        height: auto;
+        margin: 0 auto;
     }
 
-    #prize {
-        color: gold;
-        background-color: #6b5b95;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        clear: both;
-
-        text-align: center;
-        margin-top: 15rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
-
-    #main-description {
-        padding-top: 30px;
-        width: 60%;
+    #main-description,
+    #right-a-image {
+        width: 100%;
         float: left;
-        margin-top: 10px;
+        padding: 0;
+        margin: 0;
 
-    }
-
-    .main-des {
-        width: 90%;
-        float: right;
-        line-height: 30px;
-        clear: both;
-        margin-bottom: 50px;
     }
 
     #right-a-image {
-        width: 33%;
-        height: auto;
-        margin-top: 0px;
-        margin-left: auto;
-        margin-bottom: 40px;
-        margin-right: auto;
+        background-size: 100%;
     }
 
     #right-b-image {
 
-        width: 28rem;
-        height: 25rem;
-        padding: 30px;
-        margin: 6% 5% 2% 77%;
+        margin: 0;
+        width: 100%;
+
 
     }
 
-    #right-c-image {
-        background: url('../images/Prize_photo.jpg') no-repeat center center;
-
-        height: 100%;
-
+    #prize {
+        padding: 30px 0;
+        margin: 0 0 3% 0;
     }
 
-    #gallery-heading {
-
-        color: gold;
-        filter: contrast(1.6);
-        background-color: #6b5b95;
-        padding: 20px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
-
+    img {
+        width: 100%;
     }
+
+    /* Media query for gallery page to make it responsive */
 
     #gallery {
         clear: both;
         line-height: 0;
         column-count: 4;
         column-gap: 0;
-        margin-top: 0px;
     }
 
     #gallery>img {
         width: 100%;
     }
 
+    /* Media query for events page to make it responsive */
+
     #timeline-box {
-        margin-bottom: 800px;
+        max-width: 100%;
+        height: 1100px;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 300px;
+
     }
 
     #timeline-hed {
-        margin-top: 0px;
+        margin: 50px 0px 50px 0px;
         text-align: center;
         padding: 20px;
-        margin-right: 0px;
         position: relative;
         max-width: 100%;
-        color: gold;
-        filter: contrast(1.6);
     }
 
-    .main-box-left {
-        position: absolute;
-        margin-top: 30px;
-        margin-left: 15%;
-        display: inline-block;
-        margin-bottom: 100px;
-    }
-
-    #box-1 {
-        border: 2px solid black;
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #fefbd8;
-    }
-
-    #box-2 {
-        border: 2px solid black;
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #fefbd8;
-    }
-
-    #box-3 {
-        border: 2px solid black;
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #fefbd8;
-    }
-
-    #box-4 {
-        border: 2px solid black;
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #fefbd8;
-    }
-
-    #box-5 {
-        border: 2px solid black;
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #fefbd8;
+    #box-1,
+    #box-2,
+    #box-3,
+    #box-4,
+    #box-5,
+    #box-6,
+    #box-7,
+    #box-8,
+    #box-9,
+    #box-10 {
+        width: 100px;
+        height: 170px;
+        margin-left: 70%;
+        margin-right: 0%;
     }
 
     #box-1,
@@ -499,192 +1005,285 @@
     #box-8,
     #box-9,
     #box-10>p {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 12px;
-        position: relative;
-    }
+        text-align: left;
+        word-wrap: anywhere;
 
-    .main-box-right {
-        position: absolute;
-        margin-top: 30px;
-        margin-left: 55%;
-        display: inline-block;
-        margin-bottom: 100px;
-    }
-
-    #box-6 {
-        border: 2px solid black;
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #80ced6;
-    }
-
-    #box-7 {
-        border: 2px solid black;
-
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #80ced6;
-    }
-
-    #box-8 {
-        border: 2px solid black;
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #80ced6;
-    }
-
-    #box-9 {
-        border: 2px solid black;
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #80ced6;
-    }
-
-    #box-10 {
-        border: 2px solid black;
-        width: 360px;
-        height: 80px;
-        margin-bottom: 10px;
-        background-color: #80ced6;
     }
 
     .fa-solid {
-        margin-left: 170px;
+        margin-left: 150px;
         margin-top: 40px;
     }
 
     #box-5>i {
-        margin-top: 50px;
-        margin-left: 420px;
+        margin-top: 80px;
+        margin-left: 300px;
         position: absolute;
+
     }
 
-    #box-10>i {
-        margin-bottom: 0px;
-        position: relative;
-    }
-
-    #box-9>i {
-        margin-top: 0px;
-        position: relative;
-        overflow: hidden;
-    }
-
-    #box-8>i {
-        margin-top: 0px;
-        position: relative;
-    }
-
-    #box-7>i {
-        margin-top: 0px;
-        position: relative;
-    }
-
-    #box-6>i {
-        margin-bottom: 0px;
-        position: relative;
-    }
-
-    i {
-        color: black;
-    }
-
-    #a {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
-    }
-
-    #b {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
-    }
-
-    #c {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
-    }
-
-    #d {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
-    }
-
-    /* Adding style to sign up form */
+    /* Media query for Sign up page to make it responsive */
 
     .signup-section {
         clear: left;
-        background: url('../images/Black_background.png');
         background-size: cover;
         background-position: center;
-        height: 700px;
+        background: url('../images/New_books.jpg');
+        height: 900px;
+        width: 100%;
         color: #d4af37;
         margin-top: 0px;
-        margin-bottom: 0px;
+
     }
 
     .history-form {
-        margin: 50px 10% 0px 0;
-        background-color: rgba(60, 60, 60, 0.6);
-        max-width: 350px;
-        position: absolute;
-        left: 10%;
-        padding: 20px;
-
+        margin: 150px 10% 0px 0;
     }
 
-    .histroy-form>h2 {
+    /* Media query for Sign up page to make it responsive */
 
-        margin-bottom: 10px;
-
+    #contact-us {
+        width: 65%;
+        height: auto;
+        margin: 0 auto;
     }
 
-    .input-structure {
-        background: transparent;
-        color: #fafafa;
+    #contact-heading {
+        padding: 20px 0;
+        margin: 50px 0 70px 0;
+    }
+
+    #contact-left-description {
         width: 100%;
-        height: 25px;
-        margin: 5px 0 20px 0;
-        border: 1px solid goldenrod;
-        border-radius: 2px;
-    }
-
-    .input-structure:hover {
-        border-color: #f16c6b;
-    }
-
-    .signup-button {
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px 15px 32px;
+        height: 200px;
+        float: left;
+        padding: 0;
+        margin: 0;
         text-align: center;
+    }
+
+    #contact-area1 {
+        width: 100%;
+        height: 650px;
+        float: left;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    #contact-area2 {
+        margin: 0;
+        width: 100%
+    }
+
+
+
+}
+
+/* Media query for small devices like tablets */
+
+@media screen and (max-width: 950px) {
+
+
+    /* Media query for text on main image on home page */
+
+    #text-on-image {
+        left: 0;
+        display: none;
+
+    }
+
+    /* Media query for main image on home page */
+
+    #image-outer {
+        width: 100%;
+        height: auto;
+
+    }
+
+    #image-main {
+        background-size: 100%;
+    }
+
+    /* Media query for about us section */
+
+    #about-us {
+        width: 65%;
+        height: 900px;
+        margin: 0 auto;
+    }
+
+    #about-heading {
+        margin: 50px 0px;
+        max-width: 100%;
+
+    }
+
+    #about-a-image {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0px 0px 60px 0px;
+
+    }
+
+    #about-left-description {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 30px 0px 0px 0px;
+        text-align: center;
+        line-height: 5px;
+
+    }
+
+    #about-b-image {
+        margin: 0px 0px 0px 0px;
+        width: 100%
+    }
+
+    #about-c-image {
+        background: url('../images/old_books.jpg') no-repeat center center;
+        height: 100%;
+        background-size: 70%;
+        margin-right: 50px;
+    }
+
+    .paragraph-container {
+        display: flex;
+        width: 100%;
+        max-height: 8px;
+        margin-top: 5px;
+        justify-content: center;
+        justify-content: space-between;
+
+    }
+
+    .paragrapgh-container div {
+        display: inline;
         font-size: 100%;
-        background-color: #f16c6b;
-        color: #fafafa;
-        display: block;
+        padding: 5px;
+        width: 100%;
+        height: 1%;
+        background-color: #6b5b95;
+        filter: contrast(1.8);
+        margin: 0;
     }
 
-    .signup-button:hover {
-        background-color: #fafafa;
-        color: #f16c6b;
+    #edu-purpose {
+        text-align: center;
+        color: gold;
+        filter: contrast(1.6);
+        background-color: #6b5b95;
+    }
+
+    /* Media query for info  */
+
+    #intro {
+
+        width: 65%;
+        height: auto;
+        margin: 0 auto;
 
     }
 
-    #signup-heading,
-    #signup-paragraph {
-        color: #d4af37;
+    #right-c-image {
+
+        background-size: 100%;
+
     }
 
-    /*Add style to contact us page */
+    #scientist {
 
-    #contact-us-form {
-        margin-bottom: 150px;
-        border: 1px solid whitesmoke;
+        color: gold;
+        background-color: #6b5b95;
+        padding: 20px;
+        text-align: center;
+        margin: 50px 0px 70px 0px;
+
     }
+
+    /* Media query for gallery page */
+
+    #gallery {
+        clear: both;
+        line-height: 0;
+        column-count: 4;
+        column-gap: 0;
+        margin-bottom: 400px;
+    }
+
+    #gallery>img {
+        width: 100%;
+    }
+
+    /* Media query for events page  */
+
+    #timeline-box {
+        max-width: 100%;
+        height: 1100px;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 300px;
+
+    }
+
+    #timline-hed {
+
+        margin: 100px 0px 50px 0px;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        max-width: 100%;
+
+    }
+
+    #box-1,
+    #box-2,
+    #box-3,
+    #box-4,
+    #box-5,
+    #box-6,
+    #box-7,
+    #box-8,
+    #box-9,
+    #box-10 {
+        width: 100px;
+        height: 170px;
+        margin-left: 50%;
+        margin-right: 0%;
+    }
+
+    #box-1,
+    #box-2,
+    #box-3,
+    #box-4,
+    #box-5,
+    #box-6,
+    #box-7,
+    #box-8,
+    #box-9,
+    #box-10>p {
+        text-align: left;
+        word-wrap: anywhere;
+
+    }
+
+    .fa-solid {
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    #box-5>i {
+        margin-top: 80px;
+        margin-left: 120px;
+        position: absolute;
+
+    }
+
+    /* Media query for Albert Einstein page  */
 
     #contact-us {
         height: 650px;
@@ -692,43 +1291,21 @@
         color: black;
     }
 
-    #contact-us-form #send-us-heading {
-
-        color: red;
-        background-color: transparent;
-        padding: 20px 20px 5px 20px;
-        text-align: center;
-    }
-
-    #send-us-heading {
-        text-align: center;
-        color: gold;
-        padding: 15px 0px 15px 0px;
-    }
-
     #contact-heading {
         color: gold;
-        filter: contrast(1.6);
         background-color: #6b5b95;
         padding: 20px;
         text-align: center;
-        margin-top: 0px;
-        margin-bottom: 70px;
-    }
-
-    #get-intouch-heading {
-        color: blue;
-        background-color: transparent;
-        
+        margin-top: 50px;
     }
 
     #contact-left-description {
-
-
         width: 33%;
         float: left;
-        margin-top: 200px;
-        margin-left: 200px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 170px;
     }
 
     .contact-left-des {
@@ -741,794 +1318,192 @@
     }
 
     #contact-area1 {
-        width: 33%;
+        width: 60%;
         height: 500px;
-
-        margin-left: 60%;
+        margin-top: 50px;
+        margin-left: 20%;
         margin-bottom: 120px;
         margin-right: auto;
     }
 
     #contact-area2 {
-        height: 650px;
+        height: 430px;
         margin-bottom: 200px;
+        float: right;
 
     }
 
-    .subject-structure {
-        background: transparent;
-        color: black;
-        width: 100%;
-        height: 30px;
-        margin: 5px 0 20px 0;
-        border: 1px solid blueviolet;
-        border-radius: 2px;
+    #send-us-heading {
+        text-align: center;
     }
 
-    .message-structure {
-        background: transparent;
-        color: black;
+
+}
+
+/* media query for devices with max width 810 */
+
+@media screen and (max-width: 750px) {
+    #contact-left-description {
+        text-align: center;
+
+    }
+}
+
+/* Media query for small devices like smart phones */
+
+@media screen and (max-width: 550px) {
+
+    /* for header */
+
+    #image-outer {
+        height: 400px;
         width: 100%;
-        height: 80px;
-        margin: 5px 0 20px 0;
-        border: 1px solid blueviolet;
-        border-radius: 2px;
+        overflow: hidden;
+        position: relative;
     }
 
-    .contact-structure {
-        background: transparent;
-        color: black;
+    #image-main {
+        background-size: 100%;
+    }
+
+    .nav-container {
+        display: flex;
+        height: 100px;
         width: 100%;
-        height: 30px;
-        margin: 5px 0 20px 0;
-        border: 1px solid blueviolet;
-        border-radius: 2px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .nav-box {
+        width: 20%;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .nav-container.nav-box {
+        flex-shrink: 0;
+        flex-grow: 0;
+
+
+    }
+
+    /* For events page */
+
+    #box-1,
+    #box-2,
+    #box-3,
+    #box-4,
+    #box-5,
+    #box-6,
+    #box-7,
+    #box-8,
+    #box-9,
+    #box-10 {
+        width: 100px;
+        height: 170px;
+        margin-left: 15%;
+        margin-right: 0%;
+    }
+
+    #box-1,
+    #box-2,
+    #box-3,
+    #box-4,
+    #box-5,
+    #box-6,
+    #box-7,
+    #box-8,
+    #box-9,
+    #box-10>p {
+        text-align: left;
+        word-wrap: anywhere;
+
+    }
+
+    .fa-solid {
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #box-5>i {
+        margin-top: 80px;
+        margin-left: 120px;
+        position: absolute;
+
+    }
+
+    #contact-us {
+        height: 700px;
+        font-family: Rokkitt, sans-serif;
+        color: black;
+    }
+
+    #contact-left-description {
+        width: 65%;
+        float: left;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+
+    #contact-area1 {
+        width: 70%;
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 15%;
+        margin-bottom: 180px;
+        margin-right: auto;
     }
 
     .contact-button {
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px 15px 32px;
+        padding: 10px 10px 10px 10px;
+    }
+
+
+
+    #send-us-heading {
         text-align: center;
-        font-size: 100%;
-        background-color: #f16c6b;
-        color: gold;
-        display: block;
+        padding: 0;
     }
 
-    .contact-button:hover {
-        background-color: #fafafa;
-        color: #f16c6b;
-
+    #gallery {
+        clear: both;
+        line-height: 0;
+        column-count: 4;
+        column-gap: 0;
+        margin-bottom: 650px;
     }
 
-    #straight-writing {
-        text-align: center;
-        color: gold;
+    #gallery>img {
+        width: 100%;
     }
 
-    /* Media query for large devices like tablets */
+    #about-us {
+        width: 70%;
+        height: 850px;
+        margin: 0 auto;
+    }
 
-    @media screen and (max-width: 1200px) {
-
-        /* Media query for home page to make it responsive */
-        /*
-        #site-name {
-            padding: 5px 0px 0px 0px;
-        }
-        */
-        #about-us {
-            width: 65%;
-            height: 950px;
-            margin: 0 auto;
-        }
-
-        #about-heading {
-            margin: 90px 0px;
-            max-width: 100%;
-        }
-
-        #about-left-description {
-            width: 100%;
-            height: 250px;
-            float: left;
-            padding: 0;
-            margin: 0px 0px 0px 0px;
-            text-align: center;
-        }
-
-        #about-a-image {
-            width: 100%;
-            height: 400px;
-            float: left;
-            padding: 0;
-            margin: 0px 0px 100px 0px;
-            text-align: center;
-
-
-        }
-
-        #about-b-image {
-            margin: 0;
-            width: 100%;
-        }
-
-        #about-c-image {
-            background: url('../images/old_books.jpg') no-repeat center center;
-            height: 100%;
-            background-size: 70%;
-            margin-right: 50px;
-
-
-        }
-        .paragraph-container {
-            display: flex;
-            width: 100%;
-            max-height: 8px;
-            margin-top: 5px;
-            justify-content: center;
-            justify-content: space-between;
-        
-        }
-        
-        .paragrapgh-container div {
-            display: inline;
-            font-size: 100%;
-            padding: 5px;
-            width: 100%;
-            height: 1%;
-            background-color: #6b5b95;
-            filter: contrast(1.8);
-            margin: 0;
-        }
-        
-        #edu-purpose {
-            text-align: center;
-            color: gold;
-            filter: contrast(1.6);
-            background-color: #6b5b95;
-        }
-
-        /* Media query for Albert Einstein page to make it responsive */
-
-        #intro {
-            width: 65%;
-            height: auto;
-            margin: 0 auto;
-        }
-
-        #scientist {
-            margin: 50px 0px 70px 0px;
-            max-width: 100%;
-        }
-
-
-        #left-description,
-        #right-i-image {
-            width: 100%;
-            float: left;
-            padding: 0;
-            margin: 0;
-
-        }
-
-        #R-image {
-            margin: 0;
-
-            width: 100%
-        }
-
-
-
-
-        #main {
-            width: 65%;
-            height: auto;
-            margin: 0 auto;
-        }
-
-        #main-description,
-        #right-a-image {
-            width: 100%;
-            float: left;
-            padding: 0;
-            margin: 0;
-
-        }
-
-        #right-a-image {
-            background-size: 100%;
-        }
-
-        #right-b-image {
-
-            margin: 0;
-            width: 100%;
-
-
-        }
-
-
-
-
-        #prize {
-            padding: 30px 0;
-            margin: 0 0 3% 0;
-        }
-
-        img {
-            width: 100%;
-        }
-
-        /* Media query for gallery page to make it responsive */
-
-        #gallery {
-            clear: both;
-            line-height: 0;
-            column-count: 4;
-            column-gap: 0;
-        }
-
-        #gallery>img {
-            width: 100%;
-        }
-
-        /* Media query for events page to make it responsive */
-
-        #timeline-box {
-            max-width: 100%;
-            height: 1100px;
-            margin-top: auto;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 300px;
-
-        }
-
-        #timeline-hed {
-            margin: 50px 0px 50px 0px;
-            text-align: center;
-            padding: 20px;
-            position: relative;
-            max-width: 100%;
-        }
-
-        #box-1,
-        #box-2,
-        #box-3,
-        #box-4,
-        #box-5,
-        #box-6,
-        #box-7,
-        #box-8,
-        #box-9,
-        #box-10 {
-            width: 100px;
-            height: 170px;
-            margin-left: 70%;
-            margin-right: 0%;
-        }
-
-        #box-1,
-        #box-2,
-        #box-3,
-        #box-4,
-        #box-5,
-        #box-6,
-        #box-7,
-        #box-8,
-        #box-9,
-        #box-10>p {
-            text-align: left;
-            word-wrap: anywhere;
-
-        }
-
-        .fa-solid {
-            margin-left: 150px;
-            margin-top: 40px;
-        }
-
-        #box-5>i {
-            margin-top: 80px;
-            margin-left: 300px;
-            position: absolute;
-
-        }
-
-        /* Media query for Sign up page to make it responsive */
-
-        .signup-section {
-            clear: left;
-            background-size: cover;
-            background-position: center;
-            background: url('../images/New_books.jpg');
-            height: 900px;
-            width: 100%;
-            color: #d4af37;
-            margin-top: 0px;
-
-        }
-
-        .history-form {
-            margin: 150px 10% 0px 0;
-        }
-
-        /* Media query for Sign up page to make it responsive */
-
-        #contact-us {
-            width: 65%;
-            height: auto;
-            margin: 0 auto;
-        }
-
-        #contact-heading {
-            padding: 20px 0;
-            margin: 50px 0 70px 0;
-        }
-
-        #contact-left-description {
-            width: 100%;
-            height: 200px;
-            float: left;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-        }
-
-        #contact-area1 {
-            width: 100%;
-            height: 650px;
-            float: left;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-
-        }
-
-        #contact-area2 {
-            margin: 0;
-            width: 100%
-        }
-
-
+    #about-a-image {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 15px 0px 0px 0px;
 
     }
 
-    /* Media query for small devices like tablets */
-
-    @media screen and (max-width: 950px) {
-
-        /* Media query for navigation */
-
-        /*
-
-        #navigation {
-                clear: left;
-                float: left;
-                margin-left: 20px;
-                margin-bottom: 0px;
-                margin-top: 35px;
-                line-height: 25px;
-            }
-            */
-        /* Media query for text on main image on home page */
-
-        #text-on-image {
-            left: 0;
-            display: none;
-
-        }
-
-        /* Media query for main image on home page */
-
-        #image-outer {
-            width: 100%;
-            height: auto;
-
-        }
-
-        #image-main {
-            background-size: 100%;
-        }
-
-        /* Media query for about us section */
-
-        #about-us {
-            width: 65%;
-            height: 900px;
-            margin: 0 auto;
-        }
-
-        #about-heading {
-            margin: 50px 0px;
-            max-width: 100%;
-
-        }
-
-        #about-a-image {
-            width: 100%;
-            float: left;
-            padding: 0;
-            margin: 0px 0px 60px 0px;
-
-        }
-
-        #about-left-description {
-            width: 100%;
-            float: left;
-            padding: 0;
-            margin: 30px 0px 0px 0px;
-            text-align: center;
-            line-height: 5px;
-
-        }
-
-        #about-b-image {
-            margin: 0px 0px 0px 0px;
-            width: 100%
-        }
-
-        #about-c-image {
-            background: url('../images/old_books.jpg') no-repeat center center;
-            height: 100%;
-            background-size: 70%;
-            margin-right: 50px;
-        }
-        .paragraph-container {
-            display: flex;
-            width: 100%;
-            max-height: 8px;
-            margin-top: 5px;
-            justify-content: center;
-            justify-content: space-between;
-        
-        }
-        
-        .paragrapgh-container div {
-            display: inline;
-            font-size: 100%;
-            padding: 5px;
-            width: 100%;
-            height: 1%;
-            background-color: #6b5b95;
-            filter: contrast(1.8);
-            margin: 0;
-        }
-        
-        #edu-purpose {
-            text-align: center;
-            color: gold;
-            filter: contrast(1.6);
-            background-color: #6b5b95;
-        }
-
-        /* Media query for info  */
-
-        #intro {
-
-            width: 65%;
-            height: auto;
-            margin: 0 auto;
-
-        }
-
-        #right-c-image {
-
-            background-size: 100%;
-
-        }
-
-        #scientist {
-
-            color: gold;
-            background-color: #6b5b95;
-            padding: 20px;
-            text-align: center;
-            margin: 50px 0px 70px 0px;
-
-        }
-
-        /* Media query for gallery page */
-
-        #gallery {
-            clear: both;
-            line-height: 0;
-            column-count: 4;
-            column-gap: 0;
-            margin-bottom: 400px;
-        }
-
-        #gallery>img {
-            width: 100%;
-        }
-
-        /* Media query for events page  */
-
-        #timeline-box {
-            max-width: 100%;
-            height: 1100px;
-            margin-top: auto;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 300px;
-
-        }
-
-        #timline-hed {
-
-            margin: 100px 0px 50px 0px;
-            text-align: center;
-            padding: 20px;
-            position: relative;
-            max-width: 100%;
-
-        }
-
-        #box-1,
-        #box-2,
-        #box-3,
-        #box-4,
-        #box-5,
-        #box-6,
-        #box-7,
-        #box-8,
-        #box-9,
-        #box-10 {
-            width: 100px;
-            height: 170px;
-            margin-left: 50%;
-            margin-right: 0%;
-        }
-
-        #box-1,
-        #box-2,
-        #box-3,
-        #box-4,
-        #box-5,
-        #box-6,
-        #box-7,
-        #box-8,
-        #box-9,
-        #box-10>p {
-            text-align: left;
-            word-wrap: anywhere;
-
-        }
-
-        .fa-solid {
-            margin-left: 100px;
-            margin-top: 40px;
-        }
-
-        #box-5>i {
-            margin-top: 80px;
-            margin-left: 120px;
-            position: absolute;
-
-        }
-
-        /* Media query for Albert Einstein page  */
-
-        #contact-us {
-            height: 650px;
-            font-family: Rokkitt, sans-serif;
-            color: black;
-        }
-
-        #contact-heading {
-            color: gold;
-            background-color: #6b5b95;
-            padding: 20px;
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        #contact-left-description {
-            width: 33%;
-            float: left;
-            text-align: center;
-            margin-top: 50px;
-            margin-bottom: 10px;
-            margin-left: 170px;
-        }
-
-        .contact-left-des {
-            width: 40%;
-            float: right;
-            line-height: 30px;
-            clear: both;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        #contact-area1 {
-            width: 60%;
-            height: 500px;
-            margin-top: 50px;
-            margin-left: 20%;
-            margin-bottom: 120px;
-            margin-right: auto;
-        }
-
-        #contact-area2 {
-            height: 430px;
-            margin-bottom: 200px;
-            float: right;
-
-        }
-
-        #send-us-heading {
-            text-align: center;
-        }
-
-
+    #about-b-image {
+        margin: 0px 60px 0px 0px;
+        width: 100%
     }
 
-    /* media query for devices with max width 810 */
+    #about-c-image {
+        background: url('../images/old_books.jpg') no-repeat center center;
 
-    @media screen and (max-width: 750px) {
-        #contact-left-description {
-            text-align: center;
-
-        }
+        height: 100%;
+        background-size: 70%;
+        margin-right: 50px;
     }
-
-    /* Media query for small devices like smart phones */
-
-    @media screen and (max-width: 550px) {
-
-        /* for header */
-
-        #image-outer {
-            height: 400px;
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-        }
-
-        #image-main {
-            background-size: 100%;
-        }
-
-        .nav-container {
-            display: flex;
-            height: 100px;
-            width: 100%;
-            flex-wrap: nowrap;
-            justify-content: center;
-            justify-content: space-between;
-        }
-
-        .nav-box {
-            width: 20%;
-            height: 60px;
-            display: inline-block;
-        }
-
-        .nav-container.nav-box {
-            flex-shrink: 0;
-            flex-grow: 0;
-
-
-        }
-
-        /* For events page */
-
-        #box-1,
-        #box-2,
-        #box-3,
-        #box-4,
-        #box-5,
-        #box-6,
-        #box-7,
-        #box-8,
-        #box-9,
-        #box-10 {
-            width: 100px;
-            height: 170px;
-            margin-left: 15%;
-            margin-right: 0%;
-        }
-
-        #box-1,
-        #box-2,
-        #box-3,
-        #box-4,
-        #box-5,
-        #box-6,
-        #box-7,
-        #box-8,
-        #box-9,
-        #box-10>p {
-            text-align: left;
-            word-wrap: anywhere;
-
-        }
-
-        .fa-solid {
-            margin-left: 50px;
-            margin-top: 40px;
-        }
-
-        #box-5>i {
-            margin-top: 80px;
-            margin-left: 120px;
-            position: absolute;
-
-        }
-
-        #contact-us {
-            height: 700px;
-            font-family: Rokkitt, sans-serif;
-            color: black;
-        }
-
-        #contact-left-description {
-            width: 65%;
-            float: left;
-            text-align: center;
-            margin-top: 50px;
-            margin-bottom: 10px;
-            margin-left: 40px;
-        }
-
-        #contact-area1 {
-            width: 70%;
-            height: 500px;
-            margin-top: 50px;
-            margin-left: 15%;
-            margin-bottom: 180px;
-            margin-right: auto;
-        }
-
-        .contact-button {
-            padding: 10px 10px 10px 10px;
-        }
-
-
-
-        #send-us-heading {
-            text-align: center;
-            padding: 0;
-        }
-
-        #gallery {
-            clear: both;
-            line-height: 0;
-            column-count: 4;
-            column-gap: 0;
-            margin-bottom: 650px;
-        }
-
-        #gallery > img {
-            width: 100%;
-        }
-
-        #about-us {
-            width: 70%;
-            height: 850px;
-            margin: 0 auto;
-        }
-
-        #about-a-image {
-            width: 100%;
-            float: left;
-            padding: 0;
-            margin: 15px 0px 0px 0px;
-
-        }
-
-        #about-b-image {
-            margin: 0px 60px 0px 0px;
-            width: 100%
-        }
-
-        #about-c-image {
-            background: url('../images/old_books.jpg') no-repeat center center;
-
-            height: 100%;
-            background-size: 70%;
-            margin-right: 50px;
-        }
-    }
+}
