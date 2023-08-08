@@ -127,3 +127,9 @@ Every page of the project was validated using the W3C Markup Validator and W3C C
 3. As a returner user, I want to sign up for newsletter.
 
 - Sign Up Form is provied on sign up page to easily loacte the form to sign up and get Newsletter.
+
+### Common Bugs
+
+1. On the Gallery page footer appears in the center of page on tablets and smartphones but on larger screens like laptop and destop it was fine.
+
+2. Design Improvement- For the life timline chart provided on events page, i want to improve the structure and design. I hope to resolve this issue in the future.
