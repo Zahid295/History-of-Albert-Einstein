@@ -87,3 +87,7 @@ Every page of the project was validated using the W3C Markup Validator and W3C C
 - [Lighthouse Tool Results]()
 - Tested on the desktop versions of Chrome, Opera, and Microsoft Edge.
 - Chrome Developer Tools are used to test responsiveness on the following devices: Desktop, and laptop, Surface Duo, iPad Air, iPad Mini, iPhone 12 Pro, iPhone XR, iPhone SE, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra.
+  
+### Testing User Stories from User Experience Section
+
+#### User Story Testing
