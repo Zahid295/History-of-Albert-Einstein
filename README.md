@@ -4,7 +4,7 @@ The website provides content to people on the life and works of Albert Einstein.
 
 You can view the live project website [here](https://zahid295.github.io/History-of-Albert-Einstein/)
 
-<img src="assets/readme_photos/Readme_front.png" alt="Website screenshots on different devices" >
+<img src="assets/readme_photos/readme-front.png" alt="Website screenshots on different devices" >
 
 ## User experience
 
@@ -43,8 +43,9 @@ The main colors used are gold and Ultra violet.
   
 ### Wireframes
 
-- Home page Wireframe [Click here to view]()
-- Info page Wireframe [Click here to view]()
-- Media page Wireframe [Click here to view]()
-- Events page Wireframe [Click here to view]()
-- Sign Up page Wireframe [Click here to view]()
+- Home page Wireframe [Click here to view](assets/readme_photos/home-page.png)
+- Info page Wireframe [Click here to view](assets/readme_photos/info-page.png)
+- Media page Wireframe [Click here to view](assets/readme_photos/media-page.png)
+- Events page Wireframe [Click here to view](assets/readme_photos/events-page.png)
+- Sign Up page Wireframe [Click here to view](assets/readme_photos/signup-page.png)
+- Mobile - Home page Wifreframe [Click here to view](assets/readme_photos/mobile-home-page.png)
