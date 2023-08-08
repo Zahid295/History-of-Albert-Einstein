@@ -67,9 +67,25 @@ h2 {
     font-weight: bold;
 }
 
+#header a:link {
+    color: red;
+}
+
+#header a:visited {
+    color: black;
+}
+
 #header a:hover {
     border-bottom: 1px solid green;
 }
+
+#header a:active {
+    color: blueviolet;
+}
+
+
+
+
 
 .nav-container {
     display: flex;
