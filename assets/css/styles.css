@@ -223,7 +223,7 @@ h2 {
     max-height: 8px;
 
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .social-container>div {
@@ -231,10 +231,9 @@ h2 {
 
     display: inline;
     font-size: 150%;
-    padding: 10%;
+    padding: 2%;
     width: 10%;
     height: 1%;
-    background-color: #6b5b95;
     margin: 0;
 
 }
