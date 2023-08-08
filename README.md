@@ -59,3 +59,5 @@ The main colors used are gold and Ultra violet.
 - Gallery with Albert Einstein pictures.
 - Social media links in footer of each page for users to fellow up for latest information.
 - Contact me section for any query.
+
+## Technologies used
