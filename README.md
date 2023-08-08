@@ -49,3 +49,13 @@ The main colors used are gold and Ultra violet.
 - Events page Wireframe [Click here to view](assets/readme_photos/events-page.png)
 - Sign Up page Wireframe [Click here to view](assets/readme_photos/signup-page.png)
 - Mobile - Home page Wifreframe [Click here to view](assets/readme_photos/mobile-home-page.png)
+  
+## Features
+
+- An easy and clear navigation through website.
+- Accessiblity for all types of users.
+- Responsive on desktops, tablets and smartphones.
+- Sign up page for people to get NewsLetter.
+- Gallery with Albert Einstein pictures.
+- Social media links in footer of each page for users to fellow up for latest information.
+- Contact me section for any query.
