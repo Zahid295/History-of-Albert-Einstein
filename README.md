@@ -91,3 +91,25 @@ Every page of the project was validated using the W3C Markup Validator and W3C C
 ### Testing User Stories from User Experience Section
 
 #### User Story Testing
+
+##### First time user Goals
+
+1. As a first time user, I want to know the purpose of this website and what it provides.
+
+- Each page has navigation so that users may quickly and easily browse the website and discover all the information they need.
+
+2. As a first time user, I want to know the life background of Albert Einstein.
+
+- User can easily find information about life background of Albert Einstein on Info page that is clear and easily understandable.
+
+3. As a first time user, I want to discover the life events of Albert Einstein.
+
+- Life timeline chart is provided on Events page to discover the life events of Albert Einstein.
+
+4. As a first time user, I want to learn the scientific works of Albert Einstein.
+
+- Scientific works are described on Info page to easily find with the heading.
+
+5. As a first time user, I am looking for pictures of Albert Einstein and his Qoutes.
+
+- Gallery page provides with pictures and Qoutes of Albert Einstein to those who are interested.
