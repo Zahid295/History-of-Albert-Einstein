@@ -143,3 +143,32 @@ Every page of the project was validated using the W3C Markup Validator and W3C C
 2. Warning- Events page shows duplicate 'Id'.
 
 - Different names for 'Id' were used to solve this.
+  
+## Deployment
+
+### GitHub Pages
+
+1. Log into GitHub and find the repository.
+2. Find the Settings Button on menu at the top of Repository, not at the top of page.
+3. On the Settings page, scroll down until you find the GitHub Pages section.
+4. Click the dropdown labeled 'None' under Source and select Master Branch.
+5. It will refresh the page automatically.
+6. To find the currently published site link, scroll back down the page in the GitHub Pages section.
+
+### GitHub Fork
+
+By forking the repository, we create a copy of the repository on our own account so that we can view and/or modify it without impacting the original repository by following these steps:
+
+- Log into GitHub and find the repository.
+- Find the Fork Button at the top of Repository not at the top of page, just below the Settings Button on the menu.
+- By now, you should have the original repository on your GitHub account.
+
+### Local Clone
+
+- Log into GitHub and find the repository.
+- Click on the "Clone or Download" button under the repository name.
+- For cloning the repository using HTTPS, under Clone with HTTPS, copy the link.
+- Start Git Bash.
+- To clone the directory, replace the current working directory with the one where you want it to be created.
+- Type the command git clone, and then paste the URL you copied earlier.
+- Press enter to create your local clone.
