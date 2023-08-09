@@ -82,9 +82,9 @@ The main colors used are gold and Ultra violet.
 
 Every page of the project was validated using the W3C Markup Validator and W3C CSS Validator Services to make sure there were no syntax issues.
 
-- [W3C Markup Validator Results]()
-- [W3C CSS Validator Results]()
-- [Lighthouse Tool Results]()
+- [W3C Markup Validator Results]("assets/readme_photos/html-validation.png")
+- [W3C CSS Validator Results]("assets/readme_photos/css-validation.png")
+- [Lighthouse Tool Results](assets/readme_photos/lighthouse-report.png")
 - Tested on the desktop versions of Chrome, Opera, and Microsoft Edge.
 - Chrome Developer Tools are used to test responsiveness on the following devices: Desktop, and laptop, Surface Duo, iPad Air, iPad Mini, iPhone 12 Pro, iPhone XR, iPhone SE, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra.
   
