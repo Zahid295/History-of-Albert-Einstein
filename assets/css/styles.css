@@ -1563,9 +1563,13 @@ i {
     }
 
     #about-us {
-        width: 70%;
+        width: 90%;
         height: 850px;
         margin: 0 auto;
+    }
+
+    #about-left-description {
+        margin: 0;
     }
 
     #about-a-image {
