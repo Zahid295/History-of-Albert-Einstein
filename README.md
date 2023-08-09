@@ -4,7 +4,7 @@ The website provides content to people on the life and works of Albert Einstein.
 
 You can view the live project website [here](https://zahid295.github.io/History-of-Albert-Einstein/)
 
-<img src="assets/readme_photos/readme-front.png" alt="Website screenshots on different devices" >
+<img src="readme_photos/readme-front.png" alt="Website screenshots on different devices" >
 
 ## User experience
 
@@ -43,12 +43,12 @@ The main colors used are gold and Ultra violet.
   
 ### Wireframes
 
-- Home page Wireframe [Click here to view](assets/readme_photos/home-page.png)
-- Info page Wireframe [Click here to view](assets/readme_photos/info-page.png)
-- Media page Wireframe [Click here to view](assets/readme_photos/media-page.png)
-- Events page Wireframe [Click here to view](assets/readme_photos/events-page.png)
-- Sign Up page Wireframe [Click here to view](assets/readme_photos/signup-page.png)
-- Mobile - Home page Wifreframe [Click here to view](assets/readme_photos/mobile-home-page.png)
+- Home page Wireframe [Click here to view](readme_photos/home-page.png)
+- Info page Wireframe [Click here to view](readme_photos/info-page.png)
+- Media page Wireframe [Click here to view](readme_photos/media-page.png)
+- Events page Wireframe [Click here to view](readme_photos/events-page.png)
+- Sign Up page Wireframe [Click here to view](readme_photos/signup-page.png)
+- Mobile - Home page Wifreframe [Click here to view](readme_photos/mobile-home-page.png)
   
 ## Features
 
@@ -82,9 +82,9 @@ The main colors used are gold and Ultra violet.
 
 Every page of the project was validated using the W3C Markup Validator and W3C CSS Validator Services to make sure there were no syntax issues.
 
-- [W3C Markup Validator Results]("assets/readme_photos/html-validation.png")
-- [W3C CSS Validator Results]("assets/readme_photos/css-validation.png")
-- [Lighthouse Tool Results](assets/readme_photos/lighthouse-report.png")
+- [W3C Markup Validator Results](assets/readme_photos/html-validation.png)
+- [W3C CSS Validator Results](assets/readme_photos/css-validation.png)
+- [Lighthouse Tool Results](assets/readme_photos/lighthouse-report.png)
 - Tested on the desktop versions of Chrome, Opera, and Microsoft Edge.
 - Chrome Developer Tools are used to test responsiveness on the following devices: Desktop, and laptop, Surface Duo, iPad Air, iPad Mini, iPhone 12 Pro, iPhone XR, iPhone SE, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra.
   
